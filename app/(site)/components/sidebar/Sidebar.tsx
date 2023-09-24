@@ -20,13 +20,18 @@ export default function Sidebar() {
 			<div className="w-full h-[50%] flex flex-col">
 				<SidebarButton
 					onClick={() => {
-						router.push("/profile");
-						console.log("called");
+						router.push("/");
 					}}
 				>
-					Profile
+					Home
 				</SidebarButton>
-				<SidebarButton>Projects</SidebarButton>
+				<SidebarButton
+					onClick={() => {
+						router.push("/projects");
+					}}
+				>
+					Projects
+				</SidebarButton>
 				<SidebarButton>Posts</SidebarButton>
 				<SidebarButton>Moments</SidebarButton>
 			</div>

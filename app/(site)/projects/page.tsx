@@ -2,7 +2,7 @@
 
 import Sidebar from "@/app/(site)/components/sidebar/Sidebar";
 
-export default function Profile() {
+export default function Projects() {
 	return (
 		<div className="w-full h-full flex flex-row">
 			<div className="w-[18%]">
@@ -12,7 +12,7 @@ export default function Profile() {
 				<div className="pt-10 pb-10 pl-3 text-lg bg-red-500">
 					Under Maintenance: Switching to Next.js 13
 				</div>
-				<div className="text-lg font-bold">Profile Page</div>
+				<div className="text-lg font-bold">Projects Page</div>
 			</div>
 		</div>
 	);
