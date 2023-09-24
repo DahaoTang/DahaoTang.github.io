@@ -24,7 +24,7 @@ export default function Sidebar() {
 			<div className="w-full h-[45%] flex flex-col">
 				<SidebarButton
 					onClick={() => {
-						router.push("/");
+						router.push(`/`);
 					}}
 				>
 					Home
@@ -38,14 +38,36 @@ export default function Sidebar() {
 				</SidebarButton>
 				{showProjects && (
 					<div className="text-sm">
-						<SidebarSubButton>Research Projects</SidebarSubButton>
-						<SidebarSubButton>Personal Projects</SidebarSubButton>
+						<SidebarSubButton
+							onClick={() => {
+								router.push(`/projects/research`);
+							}}
+						>
+							Research Projects
+						</SidebarSubButton>
+						<SidebarSubButton
+							onClick={() => {
+								router.push(`/projects/personal`);
+							}}
+						>
+							Personal Projects
+						</SidebarSubButton>
 					</div>
 				)}
-				<SidebarButton>Posts</SidebarButton>
-				<SidebarButton onClick={()=>{
-					router.push(`/poems_n_essays`)
-				}}>Poems & Essays</SidebarButton>
+				<SidebarButton
+					onClick={() => {
+						router.push(`/posts`);
+					}}
+				>
+					Posts
+				</SidebarButton>
+				<SidebarButton
+					onClick={() => {
+						router.push(`/poems_n_essays`);
+					}}
+				>
+					Poems & Essays
+				</SidebarButton>
 			</div>
 			<div className="w-full bg-neutral-300">
 				<SidebarContactButton
