@@ -17,7 +17,7 @@ export default function Sidebar() {
 			<div className="p-[15%]">
 				<Avatar />
 			</div>
-			<div className="w-full h-[50%] flex flex-col">
+			<div className="w-full h-[45%] flex flex-col">
 				<SidebarButton
 					onClick={() => {
 						router.push("/");
