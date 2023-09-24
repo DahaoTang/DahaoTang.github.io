@@ -6,7 +6,7 @@ import Avatar from "@/app/components/Avatar";
 import SidebarButton from "@/app/(site)/components/sidebar/SidebarButton";
 import SidebarContactButton from "./SidebarContactButton";
 
-import { FaGoogle, FaLinkedin, FaUniversity } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaUniversity } from "react-icons/fa";
 import { MdBusinessCenter } from "react-icons/md";
 
 export default function Sidebar() {
@@ -43,7 +43,16 @@ export default function Sidebar() {
 						router.push(`https://www.linkedin.com/in/dahao-tang/`);
 					}}
 				>
-					Dahao Tang
+					linkedin.com/in/dahao-tang
+				</SidebarContactButton>
+				<SidebarContactButton
+					icon={<FaGithub />}
+					hiddenWords="GitHub"
+					onClick={() => {
+						router.push(`https://github.com/DahaoTang`);
+					}}
+				>
+					github.com/DahaoTang
 				</SidebarContactButton>
 				<SidebarContactButton
 					icon={<FaUniversity />}
