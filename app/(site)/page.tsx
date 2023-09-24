@@ -18,18 +18,18 @@ export default function Home() {
 	return (
 		<div>
 			<Header title="Dahao Tang Profile" />
-			<div className="w-[60%]">
+			<div className="max-w-[60%]">
 				<Heading1 content="Introduction" />
-				<div className="text-lg text-yellow-500">
+				{/* <div className="text-lg text-yellow-500">
 					Welcome to my personal website!
-				</div>
+				</div> */}
 				<div>
 					My name is Dahao Tang. I am currently a third-year student studying at
 					the University of Sydney, taking the Bachelor of Advanced Computing
 					(majoring in Computer Science) and the Bachelor of Commerce (majoring
 					in Finance).
 				</div>
-				<div className="pt-3 text-neutral-500">
+				<div className="pt-3 text-neutral-600">
 					<div className="text-lg text-sky-700">My Favourites:</div>
 					<div>Favourite sport: badminton</div>
 					<div>Favourite musical intrsument: classic guitar</div>
@@ -41,11 +41,19 @@ export default function Home() {
 					>
 						Favourite novel: Klara and the Sun
 					</div>
+					<div
+						className="hover:text-sky-500"
+						onClick={() => {
+							router.push(`https://en.wikipedia.org/wiki/Alita:_Battle_Angel`);
+						}}
+					>
+						Favourite movie: Alita: Battle Angel
+					</div>
 				</div>
 			</div>
 			<div className="pt-6">
 				<Heading1 content="Education" />
-				<Table className="w-[60%]">
+				<Table>
 					<TableHeader>
 						<TableRow>
 							<TableHead className="w-[100px]">Period</TableHead>
@@ -77,7 +85,7 @@ export default function Home() {
 			</div>
 			<div>
 				<Heading1 content="Certificate" />
-				<Table className="w-[60%]">
+				<Table>
 					<TableHeader>
 						<TableRow>
 							<TableHead className="w-[100px]">Period</TableHead>
