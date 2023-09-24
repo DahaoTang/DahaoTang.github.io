@@ -2,10 +2,10 @@
 
 import Sidebar from "@/app/(site)/components/sidebar/Sidebar";
 
-export default function Home() {
+export default function Profile() {
 	return (
 		<div className="w-full h-full flex flex-row">
-			<div className="w-[18%]">
+			<div className="w-[18%] min-w-[120px]">
 				<Sidebar />
 			</div>
 			<div className="w-full">
