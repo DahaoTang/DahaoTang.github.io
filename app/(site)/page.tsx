@@ -1,12 +1,18 @@
-import Sidebar from "@/app/(site)/components/Sidebar";
+"use client";
+
+import Sidebar from "@/app/(site)/components/sidebar/Sidebar";
 
 export default function Home() {
 	return (
 		<div className="w-full h-full flex flex-row">
-			<div className="w-[18%] min-w-[120px] bg-blue-300">
+			<div className="w-[18%] min-w-[120px]">
 				<Sidebar />
 			</div>
-			<div className="w-full"></div>
+			<div className="w-full">
+				<div className="pt-10 pb-10 pl-3 text-lg bg-red-500">
+					Under Maintenance: Switching to Next.js 13
+				</div>
+			</div>
 		</div>
 	);
 }
