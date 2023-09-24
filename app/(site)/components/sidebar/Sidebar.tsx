@@ -20,7 +20,8 @@ export default function Sidebar() {
 			<div className="w-full h-[50%] flex flex-col">
 				<SidebarButton
 					onClick={() => {
-						router.push(`/profile`);
+						router.push("/profile");
+						console.log("called");
 					}}
 				>
 					Profile
