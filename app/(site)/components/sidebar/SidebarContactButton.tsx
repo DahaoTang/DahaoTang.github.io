@@ -15,7 +15,7 @@ export default function SidebarContactButton({
 	...rest
 }: SidebarContactButtonProps) {
 	return (
-		<div className="pl-3 pr-3 pb-2 pt-2 hover:bg-neutral-400">
+		<div className="pl-3 pr-2 pb-2 pt-2 hover:bg-neutral-400">
 			<button
 				{...rest}
 				className="flex flex-row text-neutral-900 lg:text-current"

@@ -13,7 +13,7 @@ export default function Header({
 	...rest
 }: HeaderProps) {
 	return (
-		<div className="w-full m-3 items-end flex flex-row ">
+		<div className="w-full items-end flex flex-row ">
 			<div className="text-3xl font-bold text-neutral-900 pr-5">{title}</div>
 			{subtitle && <div className="pb-1 pr-1 text-neutral-500">===〉</div>}
 			<div className="text-2xl font-bold text-neutral-700 pr-5">{subtitle}</div>

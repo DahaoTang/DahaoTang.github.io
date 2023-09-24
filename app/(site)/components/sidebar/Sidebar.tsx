@@ -61,13 +61,13 @@ export default function Sidebar() {
 				>
 					Posts
 				</SidebarButton>
-				<SidebarButton
+				{/* <SidebarButton
 					onClick={() => {
 						router.push(`/poems_n_essays`);
 					}}
 				>
 					Poems & Essays
-				</SidebarButton>
+				</SidebarButton> */}
 			</div>
 			<div className="w-full bg-neutral-300">
 				<SidebarContactButton

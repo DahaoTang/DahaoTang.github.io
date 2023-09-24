@@ -7,8 +7,6 @@ export default function PoemsAndEssays() {
 		<div>
 			<Header
 				title="Poems & Essays"
-				subtitle="Table of Content"
-				subsubtitle="test"
 			/>
 		</div>
 	);
