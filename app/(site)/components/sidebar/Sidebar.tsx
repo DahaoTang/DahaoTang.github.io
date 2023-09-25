@@ -108,7 +108,7 @@ export default function Sidebar() {
 					dahao@gighero.com.au
 				</SidebarContactButton>
 				<SidebarContactButton icon={<FaGoogle />} hiddenWords="Gmail">
-					dahaotang@gmail.com
+					dahaotang.work@gmail.com
 				</SidebarContactButton>
 			</div>
 		</div>
