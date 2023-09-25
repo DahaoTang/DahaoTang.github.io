@@ -61,6 +61,13 @@ export default function Sidebar() {
 				>
 					Posts
 				</SidebarButton>
+				<SidebarButton
+					onClick={() => {
+						router.push(`/moments`);
+					}}
+				>
+					Moments
+				</SidebarButton>
 				{/* <SidebarButton
 					onClick={() => {
 						router.push(`/poems_n_essays`);
