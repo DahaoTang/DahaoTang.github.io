@@ -65,7 +65,7 @@ export default function Home() {
 						</TableRow>
 					</TableHeader>
 					<TableBody>
-						<TableRow>
+						<TableRow className="hover:bg-neutral-300">
 							<TableCell className="font-medium">2021-2025</TableCell>
 							<TableCell>Undergraduate</TableCell>
 							<TableCell
@@ -96,7 +96,7 @@ export default function Home() {
 						</TableRow>
 					</TableHeader>
 					<TableBody>
-						<TableRow>
+						<TableRow className="hover:bg-neutral-300">
 							<TableCell className="font-medium">2023-Now</TableCell>
 							<TableCell>Australian Mensa Member</TableCell>
 							<TableCell

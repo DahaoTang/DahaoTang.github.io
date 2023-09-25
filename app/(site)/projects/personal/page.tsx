@@ -85,6 +85,7 @@ export default function PersonalProjects() {
 					<TableBody>
 						{currentItems.map((projects) => (
 							<TableRow
+								className="hover:bg-neutral-300"
 								key={projects.id}
 								onClick={() => {
 									router.push(`/projects/personal/${projects.id}`);
