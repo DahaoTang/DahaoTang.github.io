@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
@@ -27,7 +29,10 @@ export default function RootLayout({
 					<div className="w-[18%]">
 						<Sidebar />
 					</div>
-					<div className="w-full m-6 text-neutral-700">{children}</div>
+					<div className="w-full m-6 text-neutral-700">
+						{children}
+						<Analytics />
+					</div>
 				</div>
 			</body>
 		</html>
