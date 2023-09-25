@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Header from "@/app/(site)/components/header/Header";
+import { Heading1 } from "@/app/(site)/components/Heading";
 import {
 	Table,
 	TableBody,
@@ -45,6 +46,7 @@ export default function Posts() {
 	return (
 		<div className="flex flex-col h-full">
 			<Header title="Posts" />
+			<Heading1 content="Table of Posts" />
 			<div className="flex-grow overflow-auto">
 				<Table>
 					<TableCaption>The list of my posts.</TableCaption>
