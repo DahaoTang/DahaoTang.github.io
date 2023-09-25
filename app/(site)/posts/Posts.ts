@@ -1,5 +1,3 @@
-import { post20230925_1 } from "./20230925_1/page";
+import { post20230925_1 } from "./20230925_1/Summary";
 
-const posts = [post20230925_1];
-
-export { posts };
+export const posts = [post20230925_1];

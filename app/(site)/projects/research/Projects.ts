@@ -1,5 +1,3 @@
-import { researchProject202312_1 } from "./202312_1/page";
+import { researchProject202312_1 } from "./202312_1/Summary";
 
-const projects = [researchProject202312_1];
-
-export { projects };
+export const projects = [researchProject202312_1];
