@@ -17,7 +17,7 @@ const posts = [
 	{
 		id: "20230925test", // "YYYYMMDDFirstWordOfTitleInNoncapitalLetters"
 		date: "2023.9.25",
-		title: "test",
+		title: "Post Placeholer",
 		keyWords: "Web; Next.js",
 		topic: "Web",
 	},
