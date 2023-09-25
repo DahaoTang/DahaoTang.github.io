@@ -7,7 +7,7 @@ import Avatar from "@/app/components/Avatar";
 import SidebarButton from "@/app/(site)/components/sidebar/SidebarButton";
 import SidebarContactButton from "@/app/(site)/components/sidebar/SidebarContactButton";
 
-import { FaGithub, FaLinkedin, FaUniversity } from "react-icons/fa";
+import { FaGithub, FaGoogle, FaLinkedin, FaUniversity } from "react-icons/fa";
 import { MdBusinessCenter } from "react-icons/md";
 import SidebarSubButton from "./SidebarSubButton";
 
@@ -21,7 +21,7 @@ export default function Sidebar() {
 			<div className="p-[15%]">
 				<Avatar />
 			</div>
-			<div className="w-full h-[42%] flex flex-col">
+			<div className="w-full h-[39%] flex flex-col">
 				<SidebarButton
 					onClick={() => {
 						router.push(`/`);
@@ -106,6 +106,9 @@ export default function Sidebar() {
 				</SidebarContactButton>
 				<SidebarContactButton icon={<MdBusinessCenter />} hiddenWords="GigHero">
 					dahao@gighero.com.au
+				</SidebarContactButton>
+				<SidebarContactButton icon={<FaGoogle />} hiddenWords="Gmail">
+					dahaotang@gmail.com
 				</SidebarContactButton>
 			</div>
 		</div>
