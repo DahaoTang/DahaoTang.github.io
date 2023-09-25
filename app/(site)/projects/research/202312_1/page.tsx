@@ -10,7 +10,8 @@ export default function ResearchProject202312_1() {
 				title="Personal Project"
 				subtitle="USYD Summer Vacation Research Program"
 			/>
-			<Heading1 content="Introduction" />
+			<Heading1 content="Current Progress" />
+			Waiting for the result of my application...
 		</div>
 	);
 }
