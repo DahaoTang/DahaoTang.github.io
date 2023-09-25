@@ -2,7 +2,7 @@ const moment20230925_1 = {
 	id: "20230925_1", // "YYYYMMDD_No."
 	date: "2023.09.25",
 	status: "😄",
-	text1: "Lily on the road. -- generated \n by MidJourney",
+	text1: "Flowers on the cobblestone road. -- generated \n by MidJourney",
 	text2: "",
 	text3: "",
 	text4: "",
