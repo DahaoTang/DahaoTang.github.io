@@ -55,7 +55,7 @@ export default function PersonalProjects() {
 					take into account personal interests.
 				</p>
 			</div>
-			<Heading1 content="List of Projects" />
+			<Heading1 content="Table of Projects" />
 			<div className="flex-grow overflow-auto">
 				<Table>
 					<TableCaption>The list of my monthly projects.</TableCaption>

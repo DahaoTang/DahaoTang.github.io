@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Header from "@/app/(site)/components/header/Header";
+import { Heading1 } from "@/app/(site)/components/Heading";
 import {
 	Table,
 	TableBody,
@@ -36,7 +37,8 @@ export default function ResearchProjects() {
 
 	return (
 		<div className="flex flex-col h-full">
-			<Header title="Posts" />
+			<Header title="Research Projects" />
+			<Heading1 content="Table of Projects" />
 			<div className="flex-grow overflow-auto">
 				<Table>
 					<TableCaption>The list of my research projects.</TableCaption>
