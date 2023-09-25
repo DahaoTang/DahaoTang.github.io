@@ -1,11 +1,5 @@
-const posts = [
-	{
-		id: "20230925test", // "YYYYMMDDFirstWordOfTitleInNoncapitalLetters"
-		date: "2023.9.25",
-		title: "Post Placeholer",
-		keyWords: "Web; Next.js",
-		topic: "Web",
-	},
-];
+import { post20230925_1 } from "./20230925_1/page";
+
+const posts = [post20230925_1];
 
 export { posts };

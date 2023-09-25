@@ -15,22 +15,7 @@ import {
 	TableRow,
 } from "@/app/components/Table";
 
-const projects = [
-	{
-		id: "202310", // "YYYYMM"
-		period: "2023 OCT",
-		name: "Prompt Engineering - AI Tutor in Education",
-		keyWords: "AI; Prompt Engineering; Fine-tuning; OpenAI; GPT",
-		topic: "AI",
-	},
-	{
-		id: "202309",
-		period: "2023 SEP",
-		name: "Personal Web Upgrade (The one you are looking at!)",
-		keyWords: "Web; Next.js; Vercel",
-		topic: "Web",
-	},
-];
+import { projects } from "./Projects";
 
 export default function PersonalProjects() {
 	const router = useRouter();

@@ -1,4 +1,4 @@
-const m20230925_1 = {
+const moment20230925_1 = {
 	id: "20230925_1", // "YYYYMMDD_No."
 	date: "2023.09.25",
 	status: "😄",
@@ -19,4 +19,4 @@ const m20230925_1 = {
 	image9: "",
 };
 
-export { m20230925_1 };
+export { moment20230925_1 };

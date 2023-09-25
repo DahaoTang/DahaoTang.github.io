@@ -13,15 +13,7 @@ import {
 	TableRow,
 } from "@/app/components/Table";
 
-const projects = [
-	{
-		id: "202310", // "YYYYMM"
-		period: "2023 DEC",
-		name: "USyd Summer Vacation Research Program",
-		keyWords: "USYD",
-		topic: "T.B.D.",
-	},
-];
+import { projects } from "./Projects";
 
 export default function ResearchProjects() {
 	const router = useRouter();
