@@ -15,7 +15,7 @@ export default function Poem20230930_1() {
 						<p>从图书馆负一楼</p>
 						<p>光线沉默的褐色长桌旁</p>
 						<p>的单人沙发座位上</p>
-						<p>凝结而出的一位长相清秀的女生</p>
+						<p>凝结而出一位长相清秀的女生</p>
 					</div>
 					<div className="pb-3">
 						<p>她的目光如此清澈</p>
@@ -40,10 +40,10 @@ export default function Poem20230930_1() {
 					</div>
 					<div className="pb-3">
 						<p>问题是：</p>
-						<p className="pl-4">作为两位男生中的一员</p>
-						<p className="pl-4">我该如何将她视作</p>
-						<p className="pl-4">和自己一样的</p>
-						<p className="pl-4">人？</p>
+						<p className="pl-8">作为两位男生中的一员</p>
+						<p className="pl-8">我该如何将她视作</p>
+						<p className="pl-8">和自己一样的</p>
+						<p className="pl-8">人？</p>
 					</div>
 					<div className="pt-3">
 						<p>二〇二三年九月三十日 作于Sydney Tina&apos;s</p>
