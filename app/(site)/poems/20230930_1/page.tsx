@@ -10,7 +10,7 @@ export default function Poem20230930_1() {
 			<Header title="Poem" subtitle="2023.09.30" subsubtitle="" />
 			<Heading1 content="不是写给高小姐的写给高小姐" />
 			<div className="flex flex-row">
-				<div className="w-[30%]">
+				<div className="w-[32%]">
 					<div className="pb-3">
 						<p>从图书馆负一楼</p>
 						<p>光线沉默的褐色长桌旁</p>
@@ -45,7 +45,7 @@ export default function Poem20230930_1() {
 						<p className="pl-4">和自己一样的</p>
 						<p className="pl-4">人？</p>
 					</div>
-					<div>
+					<div className="pt-3">
 						<p>二〇二三年九月三十日 作于Sydney Tina&apos;s</p>
 					</div>
 				</div>
