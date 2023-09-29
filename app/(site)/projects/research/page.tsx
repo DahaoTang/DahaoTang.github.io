@@ -61,7 +61,7 @@ export default function ResearchProjects() {
 							>
 								<TableCell className="font-medium">{projects.period}</TableCell>
 								<TableCell>{projects.name}</TableCell>
-								<TableCell>{projects.keyWords}</TableCell>
+								<TableCell>{projects.keywords}</TableCell>
 								<TableCell className="text-right">{projects.topic}</TableCell>
 							</TableRow>
 						))}

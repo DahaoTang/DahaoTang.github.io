@@ -32,7 +32,7 @@ export default function Home() {
 				<div className="pt-3 text-neutral-600">
 					<div className="text-lg text-sky-700">My Favourites:</div>
 					<div>Favourite sport: badminton</div>
-					<div>Favourite musical intrsument: classic guitar</div>
+					<div>Favourite musical instrument: classic guitar</div>
 					<div
 						className="hover:text-red-300"
 						onClick={() => {

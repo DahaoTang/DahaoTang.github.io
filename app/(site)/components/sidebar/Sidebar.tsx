@@ -63,18 +63,18 @@ export default function Sidebar() {
 				</SidebarButton>
 				<SidebarButton
 					onClick={() => {
+						router.push(`/poems`);
+					}}
+				>
+					Poems
+				</SidebarButton>
+				<SidebarButton
+					onClick={() => {
 						router.push(`/moments`);
 					}}
 				>
 					Moments
 				</SidebarButton>
-				{/* <SidebarButton
-					onClick={() => {
-						router.push(`/poems_n_essays`);
-					}}
-				>
-					Poems & Essays
-				</SidebarButton> */}
 			</div>
 			<div className="w-full bg-neutral-300">
 				<SidebarContactButton
