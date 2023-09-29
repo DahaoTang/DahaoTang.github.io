@@ -9,7 +9,6 @@ export default function Avatar() {
 				alt="Dahao Profile Picture"
 				width={300} // Original width of image
 				height={300} // Original height of image
-				layout="responsive"
 			/>
 		</div>
 	);
