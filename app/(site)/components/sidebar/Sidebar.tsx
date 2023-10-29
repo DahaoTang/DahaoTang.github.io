@@ -68,13 +68,6 @@ export default function Sidebar() {
 				>
 					Poems
 				</SidebarButton>
-				<SidebarButton
-					onClick={() => {
-						router.push(`/moments`);
-					}}
-				>
-					Moments
-				</SidebarButton>
 			</div>
 			<div className="w-full bg-neutral-300">
 				<SidebarContactButton
