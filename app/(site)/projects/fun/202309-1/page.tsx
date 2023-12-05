@@ -13,8 +13,7 @@ export default function PersonalProject202309_1() {
 			implemented with Next.js 13.
 			<Heading1 content="Outcome" />
 			<p>
-				Once you have read this line, it indicates the monthly project is
-				already a small success.
+				Once you have read this line, it indicates a small success for this monthly project &#9786;
 			</p>
 		</div>
 	);

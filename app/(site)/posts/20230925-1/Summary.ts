@@ -1,7 +1,7 @@
 export const post20230925_1 = {
-	id: "20230925_1", // "YYYYMMDD_No."
+	id: "20230925-1", // "YYYYMMDD-No."
 	date: "2023.9.25",
-	title: "My First Post",
+	title: "Test Post",
 	keyWords: "Web; Next.js",
 	topic: "Web",
 };

@@ -7,11 +7,11 @@ export default function ResearchProject202312_1() {
 	return (
 		<div>
 			<Header
-				title="Personal Project"
-				subtitle="USYD Summer Vacation Research Program"
+				title="Research Project"
+				subtitle=""
 			/>
 			<Heading1 content="Current Progress" />
-			Waiting for the result of my application...
+			Coming Soon
 		</div>
 	);
 }

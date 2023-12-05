@@ -56,7 +56,7 @@ export default function ResearchProjects() {
 								className="hover:bg-neutral-300"
 								key={projects.id}
 								onClick={() => {
-									router.push(`/projects/serious/${projects.id}`);
+									router.push(`${projects.url}`);
 								}}
 							>
 								<TableCell className="font-medium">{projects.period}</TableCell>

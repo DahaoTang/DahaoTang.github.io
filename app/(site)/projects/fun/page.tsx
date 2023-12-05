@@ -73,7 +73,7 @@ export default function PersonalProjects() {
 								className="hover:bg-neutral-300"
 								key={projects.id}
 								onClick={() => {
-									router.push(`/projects/fun/${projects.id}`);
+									router.push(`${projects.url}`);
 								}}
 							>
 								<TableCell className="font-medium">{projects.period}</TableCell>

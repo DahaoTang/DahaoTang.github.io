@@ -40,10 +40,10 @@ export default function Sidebar() {
 					<div className="text-sm">
 						<SidebarSubButton
 							onClick={() => {
-								router.push(`/projects/serious`);
+								router.push(`/projects/research`);
 							}}
 						>
-							Serious Projects
+							Research Projects
 						</SidebarSubButton>
 						<SidebarSubButton
 							onClick={() => {
