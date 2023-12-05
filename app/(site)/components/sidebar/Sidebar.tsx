@@ -17,7 +17,7 @@ export default function Sidebar() {
 	const [showProjects, setShowProjects] = useState(false);
 
 	return (
-		<div className="w-full h-full flex flex-col bg-sky-900">
+		<div className="w-full h-full flex flex-col bg-gradient-to-br from-cyan-300 from-10% via-blue-300 via-30% to-teal-300 to-90%">
 			<div className="p-[15%]">
 				<Avatar />
 			</div>
@@ -69,7 +69,7 @@ export default function Sidebar() {
 					Poems
 				</SidebarButton>
 			</div>
-			<div className="w-full bg-neutral-300">
+			<div className="w-full bg-opacity-50 bg-neutral-100">
 				<SidebarContactButton
 					icon={<FaLinkedin />}
 					hiddenWords="LinkedIn"
