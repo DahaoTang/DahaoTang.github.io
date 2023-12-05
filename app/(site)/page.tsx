@@ -109,7 +109,7 @@ export default function Home() {
 							</TableCell>
 							<TableCell>IQ: 141; Percentile: 99.7</TableCell>
 							<TableCell className="text-right">
-								My mum says: &quot;The behaviour that you pay to test IQ
+								My mom says: &quot;Paying to test IQ
 								indicates your IQ wouldn&apos;t be high.&quot;
 							</TableCell>
 						</TableRow>
