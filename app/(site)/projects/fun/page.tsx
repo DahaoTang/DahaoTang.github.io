@@ -38,7 +38,7 @@ export default function PersonalProjects() {
 
 	return (
 		<div className="flex flex-col h-full">
-			<Header title="Personal Projects" />
+			<Header title="Fun Projects" />
 			<div>
 				<Heading1 content="Introduction" />
 				<p>
@@ -73,7 +73,7 @@ export default function PersonalProjects() {
 								className="hover:bg-neutral-300"
 								key={projects.id}
 								onClick={() => {
-									router.push(`/projects/personal/${projects.id}`);
+									router.push(`/projects/fun/${projects.id}`);
 								}}
 							>
 								<TableCell className="font-medium">{projects.period}</TableCell>

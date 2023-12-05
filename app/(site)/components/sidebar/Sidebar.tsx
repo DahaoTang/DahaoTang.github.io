@@ -40,27 +40,27 @@ export default function Sidebar() {
 					<div className="text-sm">
 						<SidebarSubButton
 							onClick={() => {
-								router.push(`/projects/research`);
+								router.push(`/projects/serious`);
 							}}
 						>
-							Research Projects
+							Serious Projects
 						</SidebarSubButton>
 						<SidebarSubButton
 							onClick={() => {
-								router.push(`/projects/personal`);
+								router.push(`/projects/fun`);
 							}}
 						>
-							Personal Projects
+							Fun Projects
 						</SidebarSubButton>
 					</div>
 				)}
-				<SidebarButton
+				{/* <SidebarButton
 					onClick={() => {
 						router.push(`/posts`);
 					}}
 				>
 					Posts
-				</SidebarButton>
+				</SidebarButton> */}
 				<SidebarButton
 					onClick={() => {
 						router.push(`/poems`);
