@@ -6,7 +6,7 @@ interface HeadingProps {
 
 const Heading1 = ({ content, ...rest }: HeadingProps) => {
 	return (
-		<div className="pt-5 pb-3 text-xl font-bold text-sky-700">{content}</div>
+		<div className="pt-5 pb-3 text-xl font-bold text-sky-500">{content}</div>
 	);
 };
 

@@ -78,7 +78,7 @@ export default function Poems() {
 					<TableBody>
 						{currentItems.map((poems) => (
 							<TableRow
-								className="hover:bg-neutral-300"
+								className="hover:bg-neutral-200"
 								key={poems.id}
 								onClick={() => {
 									router.push(`/poems/${poems.id}`);

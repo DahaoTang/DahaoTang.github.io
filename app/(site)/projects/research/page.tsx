@@ -52,7 +52,7 @@ export default function ResearchProjects() {
 					</TableHeader>
 					<TableBody>
 						{currentItems.map((projects) => (
-							<TableRow className="hover:bg-neutral-300" key={projects.id}>
+							<TableRow className="hover:bg-neutral-200" key={projects.id}>
 								<TableCell className="font-medium">
 									<a
 										href={projects.url}

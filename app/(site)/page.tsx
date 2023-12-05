@@ -30,7 +30,7 @@ export default function Home() {
 					in Finance).
 				</div>
 				<div className="pt-3 text-neutral-600">
-					<div className="text-lg text-sky-700">My Favourites:</div>
+					<div className="text-lg text-sky-600">My Favourites:</div>
 					<div>Favourite sport: badminton</div>
 					<div>Favourite musical instrument: classic guitar</div>
 					<div
@@ -42,7 +42,7 @@ export default function Home() {
 						Favourite novel: Klara and the Sun
 					</div>
 					<div
-						className="hover:text-sky-500"
+						className="hover:text-sky-300"
 						onClick={() => {
 							router.push(`https://en.wikipedia.org/wiki/Alita:_Battle_Angel`);
 						}}
@@ -65,7 +65,7 @@ export default function Home() {
 						</TableRow>
 					</TableHeader>
 					<TableBody>
-						<TableRow className="hover:bg-neutral-300">
+						<TableRow className="hover:bg-neutral-200">
 							<TableCell className="font-medium">2021-2025</TableCell>
 							<TableCell>Undergraduate</TableCell>
 							<TableCell
@@ -96,7 +96,7 @@ export default function Home() {
 						</TableRow>
 					</TableHeader>
 					<TableBody>
-						<TableRow className="hover:bg-neutral-300">
+						<TableRow className="hover:bg-neutral-200">
 							<TableCell className="font-medium">2023-Now</TableCell>
 							<TableCell>Australian Mensa Member</TableCell>
 							<TableCell

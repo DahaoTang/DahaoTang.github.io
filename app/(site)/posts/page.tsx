@@ -53,7 +53,7 @@ export default function Posts() {
 					<TableBody>
 						{currentItems.map((posts) => (
 							<TableRow
-								className="hover:bg-neutral-300"
+								className="hover:bg-neutral-200"
 								key={posts.id}
 								onClick={() => {
 									router.push(`/posts/${posts.id}`);
