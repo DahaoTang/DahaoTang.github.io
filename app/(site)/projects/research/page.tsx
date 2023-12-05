@@ -52,17 +52,43 @@ export default function ResearchProjects() {
 					</TableHeader>
 					<TableBody>
 						{currentItems.map((projects) => (
-							<TableRow
-								className="hover:bg-neutral-300"
-								key={projects.id}
-								onClick={() => {
-									router.push(`${projects.url}`);
-								}}
-							>
-								<TableCell className="font-medium">{projects.period}</TableCell>
-								<TableCell>{projects.name}</TableCell>
-								<TableCell>{projects.keywords}</TableCell>
-								<TableCell className="text-right">{projects.topic}</TableCell>
+							<TableRow className="hover:bg-neutral-300" key={projects.id}>
+								<TableCell className="font-medium">
+									<a
+										href={projects.url}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{projects.period}
+									</a>
+								</TableCell>
+								<TableCell>
+									<a
+										href={projects.url}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{projects.name}
+									</a>
+								</TableCell>
+								<TableCell>
+									<a
+										href={projects.url}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{projects.keywords}
+									</a>
+								</TableCell>
+								<TableCell className="text-right">
+									<a
+										href={projects.url}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{projects.topic}
+									</a>
+								</TableCell>
 							</TableRow>
 						))}
 					</TableBody>

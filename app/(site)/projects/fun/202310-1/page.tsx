@@ -8,7 +8,6 @@ export default function PersonalProject202310_1() {
 		<div>
 			<Header title="Personal Project" subtitle="Prompt Engineering" />
 			<Heading1 content="Introduction" />
-			{/* <Heading2 content="Coming soon..." /> */}
 			Project October has a focus on getting the taste of Prompt Engineering.
 		</div>
 	);
