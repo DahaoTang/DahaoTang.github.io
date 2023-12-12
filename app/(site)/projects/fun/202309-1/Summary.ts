@@ -4,5 +4,5 @@ export const funProject202309_1 = {
 	name: "Personal Web Upgrade (The one you are looking at!)",
 	keywords: "Web; Next.js; Vercel",
 	topic: "Web",
-	url: "/projects/fun/202309-1",
+	url: "https://github.com/DahaoTang/DahaoTang.github.io",
 };
