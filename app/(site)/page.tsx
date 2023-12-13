@@ -77,7 +77,7 @@ export default function Home() {
 								Univeristy of Sydney
 							</TableCell>
 							<TableCell>Computer Science & Finance</TableCell>
-							<TableCell>WAM: 78.7; GPA: 3.8</TableCell>
+							<TableCell>WAM: Distinction</TableCell>
 							<TableCell className="text-right">N/A</TableCell>
 						</TableRow>
 					</TableBody>
