@@ -10,7 +10,7 @@ export default function SidebarSubButton({
 	...rest
 }: SidebarSubButtonProps) {
 	return (
-		<button {...rest} className="w-full p-3 bg-sky-300 text-neutral-700 hover:font-bold">
+		<button {...rest} className="w-full p-3 bg-teal-300 text-neutral-700 hover:font-bold">
 			{children}
 		</button>
 	);
