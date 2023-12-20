@@ -30,7 +30,7 @@ export default function Home() {
 					in Finance).
 				</div>
 				<div className="pt-3 text-neutral-600">
-					<div className="text-lg text-sky-600">My Favourites:</div>
+					<div className="text-lg text-emerald-600">My Favourites:</div>
 					<div>Favourite sport: badminton</div>
 					<div>Favourite musical instrument: classic guitar</div>
 					<div
