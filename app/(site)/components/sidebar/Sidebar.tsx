@@ -17,7 +17,8 @@ export default function Sidebar() {
 	const [showProjects, setShowProjects] = useState(false);
 
 	return (
-		<div className="w-full h-full flex flex-col bg-gradient-to-br from-amber-100 from-3% via-emerald-300 via-30% to-sky-300 to-90%">
+		// <div className="w-full h-full flex flex-col bg-gradient-to-br from-amber-100 from-3% via-emerald-300 via-30% to-sky-300 to-90%">
+		<div className="w-full h-full flex flex-col bg-neutral-500">
 			<div className="p-[15%]">
 				<Avatar />
 			</div>

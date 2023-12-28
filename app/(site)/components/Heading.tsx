@@ -6,7 +6,15 @@ interface HeadingProps {
 
 const Heading1 = ({ content, ...rest }: HeadingProps) => {
 	return (
-		<div className="pt-5 pb-3 text-xl font-bold text-emerald-600">{content}</div>
+		<div>
+			<div
+				className="pt-5 pb-3 text-xl bg-gradient-to-r from-sky-500 from-10% via-fuchsia-500 via-30% to-rose-500 to-90% 
+		dark:from-sky-300 dark:from-10% dark:via-fuchsia-300 dark:via-30% dark:to-rose-400 dark:to-90% 
+		inline-block text-transparent bg-clip-text"
+			>
+				{content}
+			</div>
+		</div>
 	);
 };
 

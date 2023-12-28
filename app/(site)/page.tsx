@@ -29,8 +29,8 @@ export default function Home() {
 					(majoring in Computer Science) and the Bachelor of Commerce (majoring
 					in Finance).
 				</div>
-				<div className="pt-3 text-neutral-600">
-					<div className="text-lg text-emerald-600">My Favourites:</div>
+				{/* <div className="pt-3 text-neutral-600">
+					<Heading1 content="My Favourites: " />
 					<div>Favourite sport: badminton</div>
 					<div>Favourite musical instrument: classic guitar</div>
 					<div
@@ -49,7 +49,7 @@ export default function Home() {
 					>
 						Favourite movie: Alita: Battle Angel
 					</div>
-				</div>
+				</div> */}
 			</div>
 			<div className="pt-6">
 				<Heading1 content="Education" />
@@ -109,8 +109,8 @@ export default function Home() {
 							</TableCell>
 							<TableCell>IQ: 141; Percentile: 99.7</TableCell>
 							<TableCell className="text-right">
-								My mom says: &quot;Paying to test IQ
-								indicates your IQ wouldn&apos;t be high.&quot;
+								My mom says: &quot;Paying to test IQ indicates your IQ
+								wouldn&apos;t be high.&quot;
 							</TableCell>
 						</TableRow>
 					</TableBody>
