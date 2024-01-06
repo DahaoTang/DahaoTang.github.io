@@ -107,12 +107,7 @@ export default function Home() {
 							>
 								Australian Mensa
 							</TableCell>
-							{/* <TableCell>IQ: 141; Percentile: 99.7</TableCell> */}
-							<TableCell>ID 11196</TableCell>
-							{/* <TableCell className="text-right">
-								My mom says: &quot;Paying to test IQ indicates your IQ
-								wouldn&apos;t be high.&quot;
-							</TableCell> */}
+							<TableCell>Credential ID 11196</TableCell>
 							<TableCell className="text-right">Issued Jun 2023</TableCell>
 						</TableRow>
 					</TableBody>
