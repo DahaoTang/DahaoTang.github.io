@@ -92,7 +92,7 @@ export default function Home() {
 							<TableHead>Title</TableHead>
 							<TableHead>Institution</TableHead>
 							<TableHead>Content</TableHead>
-							<TableHead className="text-right">P.S.</TableHead>
+							<TableHead className="text-right">Date</TableHead>
 						</TableRow>
 					</TableHeader>
 					<TableBody>
@@ -107,11 +107,13 @@ export default function Home() {
 							>
 								Australian Mensa
 							</TableCell>
-							<TableCell>IQ: 141; Percentile: 99.7</TableCell>
-							<TableCell className="text-right">
+							{/* <TableCell>IQ: 141; Percentile: 99.7</TableCell> */}
+							<TableCell>Credential ID 11196</TableCell>
+							{/* <TableCell className="text-right">
 								My mom says: &quot;Paying to test IQ indicates your IQ
 								wouldn&apos;t be high.&quot;
-							</TableCell>
+							</TableCell> */}
+							<TableCell className="text-right">Issued Jun 2023</TableCell>
 						</TableRow>
 					</TableBody>
 				</Table>
