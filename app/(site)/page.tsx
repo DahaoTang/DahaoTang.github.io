@@ -12,6 +12,7 @@ import {
 	TableHeader,
 	TableRow,
 } from "@/app/components/Table";
+import DownloadCV from "@/app/components/DownloadCV";
 
 export default function Home() {
 	const router = useRouter();
@@ -21,36 +22,12 @@ export default function Home() {
 			<Header title="Dahao Tang Profile" />
 			<div className="max-w-[60%]">
 				<Heading1 content="Introduction" />
-				{/* <div className="text-lg text-yellow-500">
-					Welcome to my personal website!
-				</div> */}
 				<div>
 					My name is Dahao Tang. I am currently a third-year student studying at
 					the University of Sydney, taking the Bachelor of Advanced Computing
 					(majoring in Computer Science) and the Bachelor of Commerce (majoring
 					in Finance).
 				</div>
-				{/* <div className="pt-3 text-neutral-600">
-							<Heading1 content="My Favourites: " />
-							<div>Favourite sport: badminton</div>
-							<div>Favourite musical instrument: classic guitar</div>
-							<div
-								className="hover:text-red-300"
-								onClick={() => {
-									router.push(`https://en.wikipedia.org/wiki/Klara_and_the_Sun`);
-								}}
-							>
-								Favourite novel: Klara and the Sun
-							</div>
-					<div
-						className="hover:text-sky-300"
-						onClick={() => {
-							router.push(`https://en.wikipedia.org/wiki/Alita:_Battle_Angel`);
-						}}
-					>
-						Favourite movie: Alita: Battle Angel
-					</div>
-				</div> */}
 			</div>
 			<div className="pt-6">
 				<Heading1 content="Education" />
@@ -113,6 +90,9 @@ export default function Home() {
 						</TableRow>
 					</TableBody>
 				</Table>
+			</div>
+			<div className="w-[12%] pt-10">
+				<DownloadCV />
 			</div>
 		</div>
 	);
