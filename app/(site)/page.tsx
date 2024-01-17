@@ -15,6 +15,7 @@ import {
 
 export default function Home() {
 	const router = useRouter();
+
 	return (
 		<div>
 			<Header title="Dahao Tang Profile" />
@@ -30,17 +31,17 @@ export default function Home() {
 					in Finance).
 				</div>
 				{/* <div className="pt-3 text-neutral-600">
-					<Heading1 content="My Favourites: " />
-					<div>Favourite sport: badminton</div>
-					<div>Favourite musical instrument: classic guitar</div>
-					<div
-						className="hover:text-red-300"
-						onClick={() => {
-							router.push(`https://en.wikipedia.org/wiki/Klara_and_the_Sun`);
-						}}
-					>
-						Favourite novel: Klara and the Sun
-					</div>
+							<Heading1 content="My Favourites: " />
+							<div>Favourite sport: badminton</div>
+							<div>Favourite musical instrument: classic guitar</div>
+							<div
+								className="hover:text-red-300"
+								onClick={() => {
+									router.push(`https://en.wikipedia.org/wiki/Klara_and_the_Sun`);
+								}}
+							>
+								Favourite novel: Klara and the Sun
+							</div>
 					<div
 						className="hover:text-sky-300"
 						onClick={() => {
