@@ -23,8 +23,8 @@ export default function Home() {
 			<div className="max-w-[60%]">
 				<Heading1 content="Introduction" />
 				<div>
-					My name is Dahao Tang. I am currently a third-year student studying at
-					the University of Sydney, taking the Bachelor of Advanced Computing
+					My name is Dahao Tang. I am currently a fourth-year student studying
+					at the University of Sydney, taking the Bachelor of Advanced Computing
 					(majoring in Computer Science) and the Bachelor of Commerce (majoring
 					in Finance).
 				</div>
@@ -55,7 +55,7 @@ export default function Home() {
 								Univeristy of Sydney
 							</TableCell>
 							<TableCell>Computer Science & Finance</TableCell>
-							<TableCell>WAM: Distinction</TableCell>
+							<TableCell>WAM: 80</TableCell>
 							<TableCell className="text-right">N/A</TableCell>
 						</TableRow>
 					</TableBody>
