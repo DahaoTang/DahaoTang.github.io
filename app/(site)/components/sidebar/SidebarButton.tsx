@@ -9,7 +9,10 @@ export default function SidebarButton({
 	...rest
 }: SidebarButtonProps) {
 	return (
-		<button {...rest} className="p-3 text-neutral-100 hover:font-bold hover:text-white">
+		<button
+			{...rest}
+			className="p-3 text-amber-100 hover:font-bold"
+		>
 			{children}
 		</button>
 	);
