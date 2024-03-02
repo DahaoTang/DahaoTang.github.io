@@ -47,7 +47,7 @@ export default function PersonalProjects() {
 				</p>
 				<p>
 					This means that every month, I will work on some small topics and try
-					to productize and experience these small topics.
+					to productize them.
 				</p>
 				<p>
 					In terms of the selection of project topics, I lean towards topics

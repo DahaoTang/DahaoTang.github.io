@@ -41,28 +41,6 @@ export default function Poems() {
 			<Heading1 content="Introduction" />
 			<div className="w-full flex flex-col">
 				<div>In this section, I will share some of my own pieces with you.</div>
-				<div>
-					Excuse me, but as a native Chinese speaker, I can only feel authentic
-					to myself when I write in Chinese, hence the poems will be provided in
-					the original form, a.k.a in Chinese.
-				</div>
-				<div>
-					In order to understand the &quot;meaning&quot; of them, I recommend
-					that you use ChatGPT to do the translation.
-				</div>
-				<div className="pt-3">
-					I will not provide any explanation from my point of view.
-				</div>
-				<div>
-					As I believe that you, as the receiver, finishing receiving the poems,
-					truly completes the pieces; my pieces alone are not completed in any
-					sense.
-				</div>
-				<div>
-					Hence 1000 receivers will complete 1000 pieces; the 1000 receivers as
-					a whole will complete one piece as well, being the one generally
-					appreciated.
-				</div>
 			</div>
 			<Heading1 content="Table of Poems" />
 			<div className="flex-grow overflow-auto">
