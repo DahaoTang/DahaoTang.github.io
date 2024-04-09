@@ -62,6 +62,20 @@ export default function Sidebar() {
 						</SidebarSubButton>
 					</div>
 				)}
+				<SidebarButton
+					onClick={() => {
+						router.push(`/posts`);
+					}}
+				>
+					Posts
+				</SidebarButton>
+				<SidebarButton
+					onClick={() => {
+						router.push(`/poems`);
+					}}
+				>
+					Poems
+				</SidebarButton>
 			</div>
 			<div className="w-full bg-opacity-50 bg-neutral-100">
 				<SidebarContactButton icon={<FaLinkedin />} hiddenWords="LinkedIn">

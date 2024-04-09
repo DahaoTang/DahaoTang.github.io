@@ -7,7 +7,12 @@ import { Heading1 } from "@/app/(site)/components/Heading";
 export default function Poem20230910_1() {
 	return (
 		<div>
-			<Header title="Poem" subtitle="2023.09.10" subsubtitle="" />
+			<Header
+				title="Poem"
+				titleurl="/poems"
+				subtitle="2023.09.10"
+				subsubtitle=""
+			/>
 			<Heading1 content="【无题】" />
 			<div className="flex flex-row">
 				<div className="w-[37%]">

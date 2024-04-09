@@ -40,7 +40,7 @@ export default function Poems() {
 			<Header title="Poems" />
 			<Heading1 content="Introduction" />
 			<div className="w-full flex flex-col">
-				<div>In this section, I will share some of my own pieces with you.</div>
+				<div>I will share some of my own pieces with you in this section.</div>
 			</div>
 			<Heading1 content="Table of Poems" />
 			<div className="flex-grow overflow-auto">
