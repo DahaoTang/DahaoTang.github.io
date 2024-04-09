@@ -38,27 +38,15 @@ export default function PersonalProjects() {
 
 	return (
 		<div className="flex flex-col h-full">
-			<Header title="Fun Projects" />
+			<Header title="Personal Projects" />
 			<div>
 				<Heading1 content="Introduction" />
-				<p>
-					Starting from September 2023, I plan to initiate a series of personal
-					projects, which I personally refer to as monthly projects.
-				</p>
-				<p>
-					This means that every month, I will work on some small topics and try
-					to productize them.
-				</p>
-				<p>
-					In terms of the selection of project topics, I lean towards topics
-					related to computer science, but am not limited to this, and fully
-					take into account personal interests.
-				</p>
+				<p>This section documents my personal projects.</p>
 			</div>
 			<Heading1 content="Table of Projects" />
 			<div className="flex-grow overflow-auto">
 				<Table>
-					<TableCaption>The list of my monthly projects.</TableCaption>
+					<TableCaption>The list of my personal projects.</TableCaption>
 					<TableHeader>
 						<TableRow>
 							<TableHead className="w-[100px]">Period</TableHead>

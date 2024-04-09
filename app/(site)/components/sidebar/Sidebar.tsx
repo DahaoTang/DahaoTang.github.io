@@ -41,6 +41,13 @@ export default function Sidebar() {
 					<div className="text-sm">
 						<SidebarSubButton
 							onClick={() => {
+								router.push(`/projects/startup`);
+							}}
+						>
+							Startups
+						</SidebarSubButton>
+						<SidebarSubButton
+							onClick={() => {
 								router.push(`/projects/research`);
 							}}
 						>
@@ -48,58 +55,41 @@ export default function Sidebar() {
 						</SidebarSubButton>
 						<SidebarSubButton
 							onClick={() => {
-								router.push(`/projects/fun`);
+								router.push(`/projects/personal`);
 							}}
 						>
-							Fun Projects
+							Personal Projects
 						</SidebarSubButton>
 					</div>
 				)}
-				{/* <SidebarButton
-					onClick={() => {
-						router.push(`/posts`);
-					}}
-				>
-					Posts
-				</SidebarButton> */}
-				<SidebarButton
-					onClick={() => {
-						router.push(`/poems`);
-					}}
-				>
-					Poems
-				</SidebarButton>
 			</div>
 			<div className="w-full bg-opacity-50 bg-neutral-100">
-				<SidebarContactButton
-					icon={<FaLinkedin />}
-					hiddenWords="LinkedIn"
-					onClick={() => {
-						router.push(`https://www.linkedin.com/in/dahao-tang/`);
-					}}
-				>
-					linkedin.com/in/dahao-tang
+				<SidebarContactButton icon={<FaLinkedin />} hiddenWords="LinkedIn">
+					<a
+						href={`https://www.linkedin.com/in/dahao-tang/`}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						linkedin.com/in/dahao-tang
+					</a>
 				</SidebarContactButton>
-				<SidebarContactButton
-					icon={<FaGithub />}
-					hiddenWords="GitHub"
-					onClick={() => {
-						router.push(`https://github.com/DahaoTang`);
-					}}
-				>
-					github.com/DahaoTang
+				<SidebarContactButton icon={<FaGithub />} hiddenWords="GitHub">
+					<a
+						href={`https://github.com/DahaoTang`}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						github.com/DahaoTang
+					</a>
 				</SidebarContactButton>
-				<SidebarContactButton
-					icon={<FaUniversity />}
-					hiddenWords="USYD"
-					onClick={() => {
-						router.push(`https://www.sydney.edu.au/`);
-					}}
-				>
-					dtan3316@uni.sydney.edu.au
-				</SidebarContactButton>
-				<SidebarContactButton icon={<MdBusinessCenter />} hiddenWords="GigHero">
-					dahao@gighero.com.au
+				<SidebarContactButton icon={<FaUniversity />} hiddenWords="USYD">
+					<a
+						href={`https://www.sydney.edu.au/`}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						dtan3316@uni.sydney.edu.au
+					</a>
 				</SidebarContactButton>
 				<SidebarContactButton icon={<FaGoogle />} hiddenWords="Gmail">
 					dahaotang.work@gmail.com

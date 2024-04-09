@@ -6,7 +6,6 @@ import { Heading1 } from "@/app/(site)/components/Heading";
 import {
 	Table,
 	TableBody,
-	TableCaption,
 	TableCell,
 	TableHead,
 	TableHeader,
@@ -38,25 +37,24 @@ export default function Home() {
 							<TableHead>Level</TableHead>
 							<TableHead>Institution</TableHead>
 							<TableHead>Area</TableHead>
-							<TableHead>Grade</TableHead>
-							<TableHead className="text-right">P.S.</TableHead>
+							<TableHead className="text-right">Grade</TableHead>
 						</TableRow>
 					</TableHeader>
 					<TableBody>
 						<TableRow className="hover:bg-neutral-200">
 							<TableCell className="font-medium">2021-2025</TableCell>
 							<TableCell>Undergraduate</TableCell>
-							<TableCell
-								className="hover:text-red-300"
-								onClick={() => {
-									router.push(`https://www.sydney.edu.au/`);
-								}}
-							>
-								Univeristy of Sydney
+							<TableCell className="hover:text-red-300">
+								<a
+									href={`https://www.sydney.edu.au/`}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Univeristy of Sydney
+								</a>
 							</TableCell>
 							<TableCell>Computer Science & Finance</TableCell>
-							<TableCell>WAM: Distinction</TableCell>
-							<TableCell className="text-right">N/A</TableCell>
+							<TableCell className="text-right">WAM: Distinction</TableCell>
 						</TableRow>
 					</TableBody>
 				</Table>
@@ -77,13 +75,14 @@ export default function Home() {
 						<TableRow className="hover:bg-neutral-200">
 							<TableCell className="font-medium">2023-Now</TableCell>
 							<TableCell>Australian Mensa Member</TableCell>
-							<TableCell
-								className="hover:text-red-300"
-								onClick={() => {
-									router.push(`https://www.mensa.org/national-group/australia`);
-								}}
-							>
-								Australian Mensa
+							<TableCell className="hover:text-red-300">
+								<a
+									href={`https://www.mensa.org/national-group/australia`}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Australian Mensa
+								</a>
 							</TableCell>
 							<TableCell>Credential ID 11196</TableCell>
 							<TableCell className="text-right">Issued Jun 2023</TableCell>
