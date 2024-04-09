@@ -6,7 +6,6 @@ import { Outfit } from "next/font/google";
 
 import Sidebar from "@/app/(site)/components/sidebar/Sidebar";
 
-// If loading a variable font, you don't need to specify the font weight
 const outfit = Outfit({
 	subsets: ["latin"],
 	display: "swap",
