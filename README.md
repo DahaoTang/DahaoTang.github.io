@@ -1,3 +1,3 @@
 # Dahao Personal Website
 
-[dahaotang.com](dahaotang.com)
+[dahaotang.com](https://dahaotang.com/)
