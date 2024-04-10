@@ -54,7 +54,7 @@ export default function Home() {
 								</a>
 							</TableCell>
 							<TableCell>Computer Science & Finance</TableCell>
-							<TableCell className="text-right">WAM: Distinction</TableCell>
+							<TableCell className="text-right">WAM: Distinction; GPA: 3.8</TableCell>
 						</TableRow>
 					</TableBody>
 				</Table>
