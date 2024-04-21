@@ -2,10 +2,21 @@
 
 export default function DownloadCV() {
 	return (
-		<div className="relative w-full h-full flex items-center justify-center">
-			<div className="relative">
-				{/* <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75"></div> */}
-				<div className="absolute -inset-1 rounded-lg bg-red-700"></div>
+		// <div className="relative w-full h-full flex items-center justify-center">
+		// 	<div className="relative">
+		// 		{/* <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75"></div> */}
+		// 		<div className="absolute -inset-1 rounded-lg bg-red-700"></div>
+		// 		<a
+		// 			className="relative rounded-lg px-7 py-4 text-amber-100"
+		// 			href="Dahao_Tang_CV.pdf"
+		// 			download
+		// 		>
+		// 			Download CV
+		// 		</a>
+		// 	</div>
+		// </div>
+		<div>
+			<button className="rounded-lg bg-red-700">
 				<a
 					className="relative rounded-lg px-7 py-4 text-amber-100"
 					href="Dahao_Tang_CV.pdf"
@@ -13,7 +24,7 @@ export default function DownloadCV() {
 				>
 					Download CV
 				</a>
-			</div>
+			</button>
 		</div>
 	);
 }
