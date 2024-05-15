@@ -1,4 +1,4 @@
-export const funProject202310_1 = {
+export const personalProject202310_1 = {
 	id: "202310-1", // "YYYYMM-No."
 	period: "2023 OCT",
 	name: "Prompt Engineering - AI Tutor in Education",

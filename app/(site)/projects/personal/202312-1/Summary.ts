@@ -1,4 +1,4 @@
-export const funProject202312_1 = {
+export const personalProject202312_1 = {
 	id: "202312-1", // "YYYYMM-No."
 	period: "2023 DEC",
 	name: "Next.js Authentication Template",

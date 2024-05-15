@@ -80,7 +80,7 @@ export default function Sidebar() {
 			<div className="w-full bg-opacity-50 bg-neutral-100">
 				<SidebarContactButton icon={<FaLinkedin />} hiddenWords="LinkedIn">
 					<a
-						href={`https://www.linkedin.com/in/dahao-tang/`}
+						href={`https://www.linkedin.com/in/dahaotang/`}
 						target="_blank"
 						rel="noopener noreferrer"
 					>
