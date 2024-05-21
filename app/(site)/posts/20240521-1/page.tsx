@@ -40,7 +40,7 @@ export default function Post20240521_1() {
 						</li>
 						<li>
 							The idea of Reflection was brought to light by Wei et al. (2023)
-							as
+							as {" "}
 							<strong>Chain-of-Thoughts (CoT)</strong>, which is typically
 							created by taking eight exemplars from the training set and
 							decomposing the reasoning process into multiple steps leading to
