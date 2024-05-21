@@ -1,0 +1,219 @@
+"use client";
+
+import Image from "next/image";
+
+import Header from "@/app/(site)/components/header/Header";
+import { Heading1 } from "@/app/(site)/components/Heading";
+
+export default function Post20240521_1() {
+	return (
+		<div>
+			<div className="pb-3">
+				<Header
+					title="Posts"
+					titleurl="/posts"
+					subtitle="2024.05.21"
+					subsubtitle="Reflections on Reflection"
+				/>
+			</div>
+			<div className="max-h-[90vh] max-w-[75vw] pr-5 overflow-y-auto">
+				<Heading1 content="Introduction" />
+				<div>
+					I rewatched{" "}
+					<a
+						className="hover:text-red-300"
+						href="https://www.youtube.com/watch?v=sal78ACtGTc&t=197s"
+					>
+						Andrew’s talk at Sequoia
+					</a>{" "}
+					these two days, and have gained new attention on the topics of
+					Reflection and Multi-agent Collaboration. In this post, I will focus
+					on the first topic,
+					<strong> Reflection</strong>.
+				</div>
+				<Heading1 content="Key Takeaways" />
+				<div>
+					<ul className="list-disc pl-5 space-y-2">
+						<li>
+							Reflection is a prompt design pattern rather than a system design
+							pattern.
+						</li>
+						<li>
+							The idea of Reflection was brought to light by Wei et al. (2023)
+							as
+							<strong>Chain-of-Thoughts (CoT)</strong>, which is typically
+							created by taking eight exemplars from the training set and
+							decomposing the reasoning process into multiple steps leading to
+							the final answer.
+						</li>
+						<li>
+							Inspired by CoT, Madaan et al. (2024) introduced the idea of{" "}
+							<strong>Self-Refine</strong> which is essentially achieved through
+							generating an initial output using an LLM and then using the same
+							LLM to provide feedback for its output and using it to refine
+							itself, iteratively.
+						</li>
+						<li>
+							A novel framework, <strong>Reflexion</strong>, introduced by Shinn
+							et al. (2024), reinforces language agents not by updating weights,
+							but instead through linguistic feedback.
+						</li>
+						<li>
+							All of these techniques achieved <strong>SOTA</strong> at some
+							given task by the time they were introduced.
+						</li>
+					</ul>
+				</div>
+				<Heading1 content="Detailed Analysis" />
+				<div className="space-y-2">
+					<div>
+						I will mainly talk about the first two techniques, CoT and
+						Self-Refine, both of which only involve one model for a specific
+						given task.
+					</div>
+					<div>
+						The idea of CoT is built upon two existing useful ideas that
+						unlocked the reasoning ability of LLMs: 1) techniques for
+						(arithmetic) reasoning can benefit from generating (step-by-step)
+						natural language rationales that lead to the final answer and 2)
+						large language models offer exciting prospects of in-context
+						few-shot learning via prompting which means that instead of
+						finetuning a separate language model checkpoint for each new task,
+						one can simply “prompt” the model with a few input-output exemplars
+						demonstrating the task.
+					</div>
+					<div>
+						By combining them together, CoT overcomes the limitations that, for
+						rationale-augmented training and finetuning methods, it is costly to
+						create a large set of high-quality rationales, which is much more
+						complicated than simple input-output pairs used in normal machine
+						learning and for the traditional few-shot prompting method used by
+						Brown et al. (2020), it works poorly on tasks that require reasoning
+						abilities and often does not improve substantially with increasing
+						language model scale (Rae et al., 2021).
+					</div>
+					<div>
+						The idea of CoT itself is rather easy to achieve, by performing
+						few-shot prompting for reasoning tasks, given a prompt that consists
+						of triples: 〈input, the chain of thought, output〉. Typically, the
+						general way that Wei. et al created a chain of thought annotations
+						by taking eight exemplars from the training set and decomposing the
+						reasoning process into multiple steps leading to the final answer.
+					</div>
+					<div className="flex flex-col items-center">
+						<Image
+							src="/images/posts/20240521-1/cot-exemplar.png"
+							alt="Table 25: Few-shot exemplars for full chain of thought prompt for StrategyA."
+							width={700} 
+							height={500}
+						/>
+						<div className="text-neutral-500">Wei et al. 2024</div>
+					</div>
+					<div>
+						For Self-Reflection, the main idea is to generate an initial output
+						using an LLM; then, the same LLM provides feedback for its output
+						and uses it to refine itself, iteratively.
+					</div>
+					<div className="flex flex-col items-center">
+						<Image
+							src="/images/posts/20240521-1/self-refine.png"
+							alt="Self-Refine Illustration"
+							width={700} 
+							height={500}
+						/>
+						<div className="text-neutral-500">Madaan et al. 2024</div>
+					</div>
+					<div>
+						The main steps involve working in tandem to generate high-quality
+						outputs. Given an initial output generated by a model M, we pass it
+						back to the same model M to get feedback. Then, the feedback is
+						passed back to the same model to refine the previously generated
+						draft. This process is repeated either for a specified number of
+						iterations or until M determines that no further refinement is
+						necessary.
+					</div>
+					<div>
+						One key thing is to ensure that the feedback is ‘actionable’, which
+						means the feedback should contain a concrete action that would
+						likely improve the output. By ‘specific’, we mean the feedback
+						should identify concrete phrases in the output to change.
+					</div>
+					<div className="flex flex-col items-center">
+						<Image
+							src="/images/posts/20240521-1/self-refine-algo.png"
+							alt="The Algorithm for Self-Refine"
+							width={700} 
+							height={500}
+						/>
+						<div className="text-neutral-500">Madaan et al. 2024</div>
+					</div>
+				</div>
+				<Heading1 content="Insights" />
+				<div>
+					<ul className="list-disc pl-5 space-y-2">
+						<li>
+							As suggested by the CoT, the idea of finetuning models can be
+							replaced by applying the idea of CoT which contains examples
+							together with other general prompt engineering skills, reducing
+							both the cost of gathering high-quality data and training cost and
+							maintaining the generality of the model.
+						</li>
+						<li>
+							The idea of CoT exists both within the prompts (the classic CoT)
+							and outside the prompt; the self-refine steps work as the chain of
+							thoughts.
+						</li>
+						<li>
+							As natural languages take up a significant portion of the data for
+							modern LLMs, reasoning with natural language increases the
+							performance of reasoning.
+						</li>
+					</ul>
+				</div>
+				<Heading1 content="References" />
+				<div>
+					<ul className="list-disc pl-5 space-y-2">
+						<li>
+							Madaan, A., Tandon, N., Gupta, P., Hallinan, S., Gao, L.,
+							Wiegreffe, S., Alon, U., Dziri, N., Prabhumoye, S., Yang, Y.,
+							Gupta, S., Majumder, B. P., Hermann, K., Welleck, S.,
+							Yazdanbakhsh, A., & Clark, P.(2024). Self-refine: Iterative
+							refinement with self-feedback. Advances in Neural Information
+							Processing Systems, 36.
+						</li>
+						<li>
+							Rae, J. W., Borgeaud, S., Cai, T., Millican, K., Hoffmann, J.,
+							Song, F., Aslanides, J., Henderson, S., Ring, R., Young, S., et
+							al. (2021). Scaling language models: Methods, analysis & insights
+							from training Gopher. arXiv preprint arXiv:2112.11446. Retrieved
+							from https://arxiv.org/abs/2112.11446
+						</li>
+						<li>
+							Shinn, N., Cassano, F., Berman, E., Gopinath, A., Narasimhan, K.,
+							& Yao, S. (2023). Reflexion: Language agents with verbal
+							reinforcement learning. arXiv preprint arXiv:2303.11366. Retrieved
+							from https://arxiv.org/abs/2303.11366
+						</li>
+						<li>
+							Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D
+							Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam,
+							Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel
+							Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya
+							Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse,
+							Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin
+							Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec
+							Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models
+							are few-shot learners. NeurIPS.
+						</li>
+						<li>
+							Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F.,
+							Chi, E., Le, Q., & Zhou, D. (2023). Chain-of-thought prompting
+							elicits reasoning in large language models. arXiv preprint
+							arXiv:2201.11903. Retrieved from https://arxiv.org/abs/2201.11903
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	);
+}
