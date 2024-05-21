@@ -151,9 +151,9 @@ export default function Post20240521_1() {
 				<div>
 					<ul className="list-disc pl-5 space-y-2">
 						<li>
-							The idea of finetuning models can be replaced by applying the idea
-							of CoT which contains examples together with other general prompt
-							engineering skills, reducing both the cost of gathering
+							The idea of finetuning models could be replaced by applying the idea
+							of CoT, which contains examples, together with other general prompt
+							engineering skills to a large extent, reducing both the cost of gathering
 							high-quality data and training cost and maintaining the generality
 							of the model.
 						</li>
