@@ -40,8 +40,7 @@ export default function Post20240521_1() {
 						</li>
 						<li>
 							The idea of Reflection was brought to light by Wei et al. (2023)
-							as {" "}
-							<strong>Chain-of-Thoughts (CoT)</strong>, which is typically
+							as <strong>Chain-of-Thoughts (CoT)</strong>, which is typically
 							created by taking eight exemplars from the training set and
 							decomposing the reasoning process into multiple steps leading to
 							the final answer.
@@ -104,7 +103,7 @@ export default function Post20240521_1() {
 						<Image
 							src="/images/posts/20240521-1/cot-exemplar.png"
 							alt="Table 25: Few-shot exemplars for full chain of thought prompt for StrategyA."
-							width={700} 
+							width={700}
 							height={500}
 						/>
 						<div className="text-neutral-500">Wei et al. 2024</div>
@@ -118,7 +117,7 @@ export default function Post20240521_1() {
 						<Image
 							src="/images/posts/20240521-1/self-refine.png"
 							alt="Self-Refine Illustration"
-							width={700} 
+							width={700}
 							height={500}
 						/>
 						<div className="text-neutral-500">Madaan et al. 2024</div>
@@ -142,7 +141,7 @@ export default function Post20240521_1() {
 						<Image
 							src="/images/posts/20240521-1/self-refine-algo.png"
 							alt="The Algorithm for Self-Refine"
-							width={700} 
+							width={700}
 							height={500}
 						/>
 						<div className="text-neutral-500">Madaan et al. 2024</div>
@@ -152,19 +151,19 @@ export default function Post20240521_1() {
 				<div>
 					<ul className="list-disc pl-5 space-y-2">
 						<li>
-							As suggested by the CoT, the idea of finetuning models can be
-							replaced by applying the idea of CoT which contains examples
-							together with other general prompt engineering skills, reducing
-							both the cost of gathering high-quality data and training cost and
-							maintaining the generality of the model.
+							The idea of finetuning models can be replaced by applying the idea
+							of CoT which contains examples together with other general prompt
+							engineering skills, reducing both the cost of gathering
+							high-quality data and training cost and maintaining the generality
+							of the model.
 						</li>
 						<li>
-							The idea of CoT exists both within the prompts (the classic CoT)
-							and outside the prompt; the self-refine steps work as the chain of
-							thoughts.
+							A more general {"CoT"} idea exists both within the prompts (the
+							classic CoT) and outside the prompt: the self-refine steps work as
+							the chain of thoughts.
 						</li>
 						<li>
-							As natural languages take up a significant portion of the data for
+							As natural languages take up a significant portion of the traing data for
 							modern LLMs, reasoning with natural language increases the
 							performance of reasoning.
 						</li>
