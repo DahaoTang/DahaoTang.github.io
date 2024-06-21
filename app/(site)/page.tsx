@@ -22,7 +22,7 @@ export default function Home() {
 			<div className="max-w-[60%]">
 				<Heading1 content="Introduction" />
 				<div>
-					My name is Dahao Tang. I am currently a fourth-year student studying
+					My name is Dahao. I am currently a fourth-year student studying
 					at the University of Sydney, taking the Bachelor of Advanced Computing
 					(majoring in Computer Science) and the Bachelor of Commerce (majoring
 					in Finance).

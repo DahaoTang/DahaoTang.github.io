@@ -8,7 +8,6 @@ import SidebarButton from "@/app/(site)/components/sidebar/SidebarButton";
 import SidebarContactButton from "@/app/(site)/components/sidebar/SidebarContactButton";
 
 import { FaGithub, FaGoogle, FaLinkedin, FaUniversity } from "react-icons/fa";
-import { MdBusinessCenter } from "react-icons/md";
 import SidebarSubButton from "./SidebarSubButton";
 
 export default function Sidebar() {
