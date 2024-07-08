@@ -1,3 +1,7 @@
-# Dahao Personal Website
+# Dahao Tang Personal Website V3.0
 
-[dahaotang.com](https://dahaotang.com/)
+dahaotang.com
+
+## Introduction
+
+Design idea: extreme slim, fit into different screen sizes
