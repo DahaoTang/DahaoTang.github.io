@@ -21,14 +21,26 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={noto_sans.className}>
+			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
 				<div className="flex justify-center text-neutral-900">
 					{/* The size of the website is set to a fixed 768px, the small screen width chosen by openai.com */}
-					<div className="w-[768px] outline outline-red-300">
-						<div className="h-[42px] outline outline-blue-300">
+					<div className="w-[768px] flex flex-col min-h-screen ">
+						<div className="sticky top-0 z-10 h-[42px] bg-white ">
 							<Headbar />
 						</div>
-						{children}
+						<div className="flex-grow p-10">{children}</div>
+						<div className="sticky bottom-0 z-10 h-[24] flex items-center justify-center bg-white ">
+							Developed by
+							<a
+								className=""
+								href="https://dahaotang.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								&nbsp;Dahao Tang&nbsp;
+							</a>
+							| 2024
+						</div>
 					</div>
 				</div>
 			</body>
