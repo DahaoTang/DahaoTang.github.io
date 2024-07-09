@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect, FC } from "react";
 
-// Define props types
 interface DropdownMenuItem {
 	text: string;
 	href: string;
@@ -17,12 +16,10 @@ const DropdownMenu: FC<DropdownMenuProps> = ({ triggerText, items }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const dropdownRef = useRef<HTMLDivElement>(null);
 
-	// Toggle function for dropdown
 	const toggleDropdown = () => {
 		setIsOpen(!isOpen);
 	};
 
-	// Close dropdown when clicking outside
 	useEffect(() => {
 		const handleClickOutside = (event: MouseEvent) => {
 			if (
@@ -41,10 +38,7 @@ const DropdownMenu: FC<DropdownMenuProps> = ({ triggerText, items }) => {
 
 	return (
 		<div ref={dropdownRef} className="relative">
-			<button
-				className="px-4 py-2"
-				onClick={toggleDropdown}
-			>
+			<button className="px-4 py-2" onClick={toggleDropdown}>
 				{triggerText}
 			</button>
 			{isOpen && (
