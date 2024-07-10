@@ -39,7 +39,7 @@ export default function PersonalProjects() {
 	return (
 		<div>
 			<Heading1 content="Personal Projects" />
-			<div className="pt-3">
+			<div className="flex justify-center pt-3">
 				<PaginatedList
 					items={personalProjects}
 					itemsPerPage={10}

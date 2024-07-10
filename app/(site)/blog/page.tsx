@@ -17,7 +17,7 @@ export default function Blogs() {
 	return (
 		<div>
 			<Heading1 content="Blogs" />
-			<div className="pt-3">
+			<div className="flex justify-center pt-3">
 				<PaginatedList
 					items={blogs}
 					itemsPerPage={10}

@@ -30,7 +30,7 @@ export default function Startups() {
 	return (
 		<div className="">
 			<Heading1 content="Startups" />
-			<div className="pt-3">
+			<div className="flex justify-center pt-3">
 				<PaginatedList
 					items={startups}
 					itemsPerPage={10}

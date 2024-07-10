@@ -23,7 +23,7 @@ export default function ResearchProjects() {
 	return (
 		<div>
 			<Heading1 content="Research Projects" />
-			<div className="pt-3">
+			<div className="flex justify-center pt-3">
 				<PaginatedList
 					items={researchProjects}
 					itemsPerPage={10}
