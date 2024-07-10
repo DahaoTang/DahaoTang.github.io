@@ -1,10 +1,17 @@
-import { Heading1, Heading2 } from "@/app/components/Heading";
+import Image from "next/image";
+
+import { Heading2 } from "@/app/components/Heading";
 
 export default function Home() {
 	return (
 		<div>
-			<Heading1 content="Dahao Tang" />
-			<div className="pt-3">
+			<Image
+				src="/images/Dahao_Tang_Signature.jpg"
+				alt="Dahao Tang Signature"
+				width={700}
+				height={500}
+			/>
+			<div className="pt-6">
 				<Heading2 content="USYD" />
 				<p>Bachelor of Advanced Computing, majoring in Computer Science</p>
 				<p>Bachelor of Commerce, majoring in Finance</p>
