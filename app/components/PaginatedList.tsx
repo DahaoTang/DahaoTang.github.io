@@ -45,7 +45,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 					{currentItems.map((item, idx) => (
 						<tr
 							key={idx}
-							className="hover:bg-neutral-100 cursor-pointer text-left text-xs"
+							className="hover:bg-neutral-900 hover:text-white cursor-pointer text-left text-xs"
 							onClick={() =>
 								handleRowClick(item[columnNames[columnNames.length - 1]])
 							}
@@ -66,22 +66,22 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 				<button
 					className={`px-4 py-2 w-24 ${
 						currentPage <= 1
-							? "text-neutral-500 bg-neutral-200 cursor-not-allowed"
-							: "text-white bg-neutral-900 hover:bg-neutral-800"
+							? "text-neutral-100 cursor-not-allowed"
+							: "hover:bg-neutral-900 hover:text-white"
 					}`}
 					onClick={() => paginate(currentPage - 1)}
 					disabled={currentPage <= 1}
 				>
 					Previous
 				</button>
-				<span className="mt-3">
+				<span className="py-2">
 					Page {currentPage} of {pageCount}
 				</span>
 				<button
 					className={`px-4 py-2 w-24 ${
 						currentPage >= pageCount
-							? "text-neutral-500 bg-neutral-300 cursor-not-allowed"
-							: "text-white bg-neutral-900 hover:bg-neutral-800"
+							? "text-neutral-100 cursor-not-allowed"
+							: "hover:bg-neutral-900 hover:text-white"
 					}`}
 					onClick={() => paginate(currentPage + 1)}
 					disabled={currentPage >= pageCount}

@@ -33,7 +33,7 @@ export default function RootLayout({
 						<div className="sticky bottom-0 z-10 h-[42px] pb-3 pt-2 flex items-center justify-center bg-white">
 							Developed by
 							<a
-								className=""
+								className="hover:text-red-300"
 								href="https://dahaotang.com/"
 								target="_blank"
 								rel="noopener noreferrer"

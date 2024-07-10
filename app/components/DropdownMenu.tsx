@@ -39,7 +39,7 @@ const DropdownMenu: FC<DropdownMenuProps> = ({ triggerText, items }) => {
 	return (
 		<div ref={dropdownRef} className="relative">
 			<button className="px-4 py-2" onClick={toggleDropdown}>
-				{triggerText}
+				<div className="p-2 hover:bg-neutral-900 hover:text-white">{triggerText}</div>
 			</button>
 			{isOpen && (
 				<div className="absolute left-0 w-full bg-white mt-1 overflow-hidden">
