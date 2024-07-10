@@ -27,7 +27,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 	};
 
 	return (
-		<div>
+		<div className="mx-5">
 			<table className="min-w-full leading-normal table-fixed">
 				<thead>
 					<tr>
@@ -35,7 +35,11 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 							<th
 								key={index}
 								className={`px-5 py-3 border-b-2 border-neutral-300 text-left text-md tracking-wider ${
-									index >= 3 ? "hidden sm:table-cell" : ""
+									index === columnNames.length - 1
+										? "hidden"
+										: index >= 2
+										? "hidden sm:table-cell"
+										: ""
 								}`}
 							>
 								{name}
@@ -56,7 +60,11 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 								<td
 									key={index}
 									className={`px-5 py-2 border-b border-neutral-300 ${
-										index >= 3 ? "hidden sm:table-cell" : ""
+										index === columnNames.length - 1
+											? "hidden"
+											: index >= 2
+											? "hidden sm:table-cell"
+											: ""
 									}`}
 								>
 									{item[col]}
