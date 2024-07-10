@@ -31,11 +31,12 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 			<table className="min-w-full leading-normal table-fixed">
 				<thead>
 					<tr>
-						{columnNames.slice(0, -1).map((name, index) => (
+						{columnNames.map((name, index) => (
 							<th
 								key={index}
-								className="px-5 py-3 border-b-2 border-neutral-300 text-left text-md tracking-wider"
-								style={{ wordWrap: "break-word" }}
+								className={`px-5 py-3 border-b-2 border-neutral-300 text-left text-md tracking-wider ${
+									index >= 3 ? "hidden sm:table-cell" : ""
+								}`}
 							>
 								{name}
 							</th>
@@ -46,16 +47,17 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 					{currentItems.map((item, idx) => (
 						<tr
 							key={idx}
-							className="hover:bg-neutral-900 hover:text-white cursor-pointer text-left text-xs"
+							className="hover:bg-neutral-900 hover:text-white cursor-pointer"
 							onClick={() =>
 								handleRowClick(item[columnNames[columnNames.length - 1]])
 							}
 						>
-							{columnNames.slice(0, -1).map((col, index) => (
+							{columnNames.map((col, index) => (
 								<td
 									key={index}
-									className="px-5 py-2 border-b border-neutral-300"
-									style={{ wordWrap: "break-word" }}
+									className={`px-5 py-2 border-b border-neutral-300 ${
+										index >= 3 ? "hidden sm:table-cell" : ""
+									}`}
 								>
 									{item[col]}
 								</td>
