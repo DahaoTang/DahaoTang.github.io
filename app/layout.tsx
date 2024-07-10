@@ -25,7 +25,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
-					<div className="w-[812px] flex flex-col min-h-screen bg-white">
+					<div className="min-w-screen max-w-[812px] flex flex-col min-h-screen bg-white">
 						<div className="sticky top-0 z-10 h-[42px]">
 							<Headbar />
 						</div>
