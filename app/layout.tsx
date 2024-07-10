@@ -25,12 +25,12 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
-					<div className="w-[600] flex flex-col min-h-screen outline outline-red-300">
-						<div className="sticky top-0 z-10 h-[42px] bg-white outline outline-blue-300">
+					<div className="w-[420] flex flex-col min-h-screen">
+						<div className="sticky top-0 z-10 h-[42px] bg-white">
 							<Headbar />
 						</div>
 						<div className="flex-grow p-10">{children}</div>
-						<div className="sticky bottom-0 z-10 h-[24] flex items-center justify-center bg-white outline outline-green-300">
+						<div className="sticky bottom-0 z-10 h-[24] flex items-center justify-center bg-white">
 							Developed by
 							<a
 								className=""
