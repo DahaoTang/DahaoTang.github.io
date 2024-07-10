@@ -30,7 +30,7 @@ export default function RootLayout({
 							<Headbar />
 						</div>
 						<div className="flex-grow p-10">{children}</div>
-						<div className="sticky bottom-0 z-10 h-[24] flex items-center justify-center bg-white">
+						<div className="sticky bottom-3 z-10 h-[24] flex items-center justify-center bg-white">
 							Developed by
 							<a
 								className=""
