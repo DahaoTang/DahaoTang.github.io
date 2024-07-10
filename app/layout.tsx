@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
@@ -23,8 +25,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
-					{/* The size of the website is set to a fixed 768px, the small screen width chosen by openai.com */}
-					<div className="w-[768px] flex flex-col min-h-screen outline outline-red-300">
+					<div className="w-[600] flex flex-col min-h-screen outline outline-red-300">
 						<div className="sticky top-0 z-10 h-[42px] bg-white outline outline-blue-300">
 							<Headbar />
 						</div>
@@ -42,6 +43,7 @@ export default function RootLayout({
 							| 2024
 						</div>
 					</div>
+					<Analytics />
 				</div>
 			</body>
 		</html>
