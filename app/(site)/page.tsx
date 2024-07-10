@@ -13,13 +13,13 @@ export default function Home() {
 					height={500}
 				/>
 			</div>
-			<div className="mt-[72px]">
+			<div className="mt-[81px]">
 				<Heading2 content="USYD" />
 				<p>Bachelor of Advanced Computing, majoring in Computer Science</p>
 				<p>Bachelor of Commerce, majoring in Finance</p>
 				<p>WAM: Distinction; GPA: 3.8</p>
 			</div>
-			<div className="mt-[15px]">
+			<div className="mt-[12px]">
 				<Heading2 content="Mensa" />
 				<p>Australian Mensa member: ID 11196</p>
 			</div>
