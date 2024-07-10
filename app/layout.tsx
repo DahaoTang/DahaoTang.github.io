@@ -1,20 +1,13 @@
 import { Analytics } from "@vercel/analytics/react";
 
-import type { Metadata } from "next";
-import { Noto_Sans } from "next/font/google";
 import "./globals.css";
-
 import Headbar from "@/app/components/Headbar";
+import { Noto_Sans } from "next/font/google";
 
 const noto_sans = Noto_Sans({
 	subsets: ["latin"],
 	display: "swap",
 });
-
-export const metadata: Metadata = {
-	title: "Dahao Tang Personal Website",
-	description: "3.0",
-};
 
 export default function RootLayout({
 	children,
@@ -23,13 +16,15 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
+			<body className={`${noto_sans.className}`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
-					<div className="min-w-screen max-w-[812px] flex flex-col min-h-screen bg-white">
+					<div className="min-w-screen max-w-[812px] w-full flex flex-col min-h-screen bg-white">
 						<div className="sticky top-0 z-10 h-[42px]">
 							<Headbar />
 						</div>
-						<div className="flex-grow p-10">{children}</div>
+						<main className="flex-grow p-10">
+							{children} <Analytics />
+						</main>
 						<div className="sticky bottom-0 z-10 h-[42px] pb-3 pt-2 flex items-center justify-center">
 							Developed by
 							<a
@@ -43,7 +38,6 @@ export default function RootLayout({
 							| 2024
 						</div>
 					</div>
-					<Analytics />
 				</div>
 			</body>
 		</html>

@@ -13,7 +13,7 @@ export default function Home() {
 					height={500}
 				/>
 			</div>
-			<div className="mt-[72]">
+			<div className="mt-[72px]">
 				<Heading2 content="USYD" />
 				<p>Bachelor of Advanced Computing, majoring in Computer Science</p>
 				<p>Bachelor of Commerce, majoring in Finance</p>

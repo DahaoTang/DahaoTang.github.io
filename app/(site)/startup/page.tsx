@@ -28,7 +28,7 @@ const startups = [
 
 export default function Startups() {
 	return (
-		<div>
+		<div className="">
 			<Heading1 content="Startups" />
 			<div className="pt-3">
 				<PaginatedList
