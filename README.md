@@ -4,4 +4,4 @@ dahaotang.com
 
 ## Introduction
 
-Design idea: extreme slim, fit into different screen sizes
+Design idea: extremely simple, fit into different screen sizes
