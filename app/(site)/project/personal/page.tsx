@@ -4,25 +4,34 @@ import PaginatedList from "@/app/components/PaginatedList";
 const personalProjectsTableColumns = [
 	"Period",
 	"Name",
-	"Industry",
+	"Area",
 	"Description",
 	"URL",
 ];
 
 const personalProjects = [
 	{
-		Period: "2024 Jan - Now",
-		Name: "ioulia",
-		Industry: "AIGC",
-		Description: "A Tarot-based spiritual support chatbot",
-		URL: "https://ioulia.app",
+		Period: "2024 June",
+		Name: "Personal Website Update",
+		Area: "Web, Next.js, Tailwind",
+		Description:
+			"An update in personal website. Extremely simple. Suitable for difference screen sizes.",
+		URL: "https://github.com/DahaoTang/DahaoTang.github.io",
 	},
 	{
-		Period: "2023 Mar - Now",
-		Name: "GigHero",
-		Industry: "Marketplace",
-		Description: "Online marketplace for onsite services",
-		URL: "https://gighero.com.au",
+		Period: "2024 May",
+		Name: "CLIP-based Image Search",
+		Area: "CLIP, AI",
+		Description:
+			"A straightforward image search application using CLIP, developed through a simple Next.js-based website interface.",
+		URL: "https://github.com/DahaoTang/clip-based-image-search",
+	},
+	{
+		Period: "2023 Dec",
+		Name: "Next.js Authentication Template",
+		Area: "Authentication, Next.js",
+		Description: "Next.js Project Authentication Template",
+		URL: "https://github.com/DahaoTang/nextjs-auth-server-action-template",
 	},
 ];
 

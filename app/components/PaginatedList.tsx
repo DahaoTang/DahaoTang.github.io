@@ -23,7 +23,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
 	const handleRowClick = (url: string) => {
-		window.open(url, "_blank");
+		if (url) window.open(url, "_blank");
 	};
 
 	return (
@@ -50,19 +50,14 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 								handleRowClick(item[columnNames[columnNames.length - 1]])
 							}
 						>
-							{columnNames.slice(0, -1).map(
-								(
-									col,
-									index 
-								) => (
-									<td
-										key={index}
-										className="px-5 py-2 border-b border-neutral-300"
-									>
-										{item[col]}
-									</td>
-								)
-							)}
+							{columnNames.slice(0, -1).map((col, index) => (
+								<td
+									key={index}
+									className="px-5 py-2 border-b border-neutral-300"
+								>
+									{item[col]}
+								</td>
+							))}
 						</tr>
 					))}
 				</tbody>
