@@ -6,7 +6,7 @@ import { Heading2 } from "@/app/components/Heading";
 export default function Home() {
 	return (
 		<div>
-			<div className="mt-5">
+			<div className="mt-[42px]">
 				<Image
 					src="/images/Dahao_Tang_Signature.jpg"
 					alt="Dahao Tang Signature"
@@ -24,7 +24,7 @@ export default function Home() {
 				<Heading2 content="Mensa" />
 				<p>Australian Mensa member: ID 11196</p>
 			</div>
-			<div className="mt-[81px]">
+			<div className="mt-[42px]">
 				<DownloadCV />
 			</div>
 		</div>
