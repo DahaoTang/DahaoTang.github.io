@@ -10,14 +10,16 @@ export default function Headbar() {
 				<DropdownMenu
 					triggerText="Projects"
 					items={[
-						{ text: "Research Projects", href: "/item2" },
-						{ text: "Personal Projects", href: "/item3" },
-						{ text: "Startups", href: "/item1" },
+						{ text: "Research Projects", href: "/project/research" },
+						{ text: "Personal Projects", href: "/project/personal" },
 					]}
 				/>
 			</div>
 			<div className="flex-1 text-center">
-				<a href="/">Blogs</a>
+				<a href="/startup">Startups</a>
+			</div>
+			<div className="flex-1 text-center">
+				<a href="/blog">Blogs</a>
 			</div>
 		</div>
 	);

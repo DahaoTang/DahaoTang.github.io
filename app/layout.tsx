@@ -22,7 +22,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${noto_sans.className} flex flex-col min-h-screen`}>
-				<div className="flex justify-center text-neutral-900">
+				<div className="flex justify-center text-neutral-900 text-sm">
 					{/* The size of the website is set to a fixed 768px, the small screen width chosen by openai.com */}
 					<div className="w-[768px] flex flex-col min-h-screen outline outline-red-300">
 						<div className="sticky top-0 z-10 h-[42px] bg-white outline outline-blue-300">
