@@ -27,7 +27,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 	};
 
 	return (
-		<div>
+		<div className="mx-5">
 			<table className="min-w-full leading-normal table-fixed">
 				<thead>
 					<tr>
