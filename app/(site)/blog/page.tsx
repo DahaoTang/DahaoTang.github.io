@@ -18,11 +18,13 @@ export default function Blogs() {
 		<div>
 			<Heading1 content="Blogs" />
 			<div className="flex justify-center pt-3">
-				<PaginatedList
-					items={blogs}
-					itemsPerPage={10}
-					columnNames={blogsTableColumns}
-				/>
+				<div className="flex-grow">
+					<PaginatedList
+						items={blogs}
+						itemsPerPage={10}
+						columnNames={blogsTableColumns}
+					/>
+				</div>
 			</div>
 		</div>
 	);

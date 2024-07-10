@@ -31,11 +31,13 @@ export default function Startups() {
 		<div className="">
 			<Heading1 content="Startups" />
 			<div className="flex justify-center pt-3">
-				<PaginatedList
-					items={startups}
-					itemsPerPage={10}
-					columnNames={startupsTableColumns}
-				/>
+				<div className="flex-grow">
+					<PaginatedList
+						items={startups}
+						itemsPerPage={10}
+						columnNames={startupsTableColumns}
+					/>
+				</div>
 			</div>
 		</div>
 	);

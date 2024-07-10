@@ -24,11 +24,13 @@ export default function ResearchProjects() {
 		<div>
 			<Heading1 content="Research Projects" />
 			<div className="flex justify-center pt-3">
-				<PaginatedList
-					items={researchProjects}
-					itemsPerPage={10}
-					columnNames={researchProjectsTableColumns}
-				/>
+				<div className="flex-grow">
+					<PaginatedList
+						items={researchProjects}
+						itemsPerPage={10}
+						columnNames={researchProjectsTableColumns}
+					/>
+				</div>
 			</div>
 		</div>
 	);

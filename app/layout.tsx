@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="icon" href="/favicon.ico" />
+			</head>
 			<body className={`${noto_sans.className}`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
 					<div className="min-w-screen max-w-[812px] w-full flex flex-col min-h-screen bg-white">

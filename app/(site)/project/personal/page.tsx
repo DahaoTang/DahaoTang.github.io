@@ -40,11 +40,13 @@ export default function PersonalProjects() {
 		<div>
 			<Heading1 content="Personal Projects" />
 			<div className="flex justify-center pt-3">
-				<PaginatedList
-					items={personalProjects}
-					itemsPerPage={10}
-					columnNames={personalProjectsTableColumns}
-				/>
+				<div className="flex-grow">
+					<PaginatedList
+						items={personalProjects}
+						itemsPerPage={10}
+						columnNames={personalProjectsTableColumns}
+					/>
+				</div>
 			</div>
 		</div>
 	);
