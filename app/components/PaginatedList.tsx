@@ -28,13 +28,14 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 
 	return (
 		<div>
-			<table className="min-w-full leading-normal">
+			<table className="min-w-full leading-normal table-fixed">
 				<thead>
 					<tr>
 						{columnNames.slice(0, -1).map((name, index) => (
 							<th
 								key={index}
 								className="px-5 py-3 border-b-2 border-neutral-300 text-left text-md tracking-wider"
+								style={{ wordWrap: "break-word" }}
 							>
 								{name}
 							</th>
@@ -54,6 +55,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 								<td
 									key={index}
 									className="px-5 py-2 border-b border-neutral-300"
+									style={{ wordWrap: "break-word" }}
 								>
 									{item[col]}
 								</td>
