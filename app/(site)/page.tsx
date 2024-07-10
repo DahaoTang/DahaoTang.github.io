@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import DownloadCV from "@/app/components/DownloadCV";
 import { Heading2 } from "@/app/components/Heading";
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
 			<div className="mt-[15px]">
 				<Heading2 content="Mensa" />
 				<p>Australian Mensa member: ID 11196</p>
+			</div>
+			<div className="mt-[81px]">
+				<DownloadCV />
 			</div>
 		</div>
 	);
