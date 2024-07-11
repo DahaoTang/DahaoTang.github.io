@@ -87,7 +87,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 					Previous
 				</button>
 				<span className="py-2">
-					Page {currentPage} of {pageCount}
+					{currentPage} / {pageCount}
 				</span>
 				<button
 					className={`px-4 py-2 w-24 ${
