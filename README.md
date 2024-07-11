@@ -1,7 +1,14 @@
-# Dahao Tang Personal Website V3.0
+# Personal Website
 
-dahaotang.com
+**Website:** [dahaotang.com](https://dahaotang.com)
 
 ## Introduction
 
-Design idea: extremely simple, fit into different screen sizes
+Welcome to the GitHub repository for my personal website, [dahaotang.com](https://dahaotang.com). This repository hosts the source code for the third iteration (v3.0) of the site. The design philosophy focuses on simplicity and providing optimal viewing on devices of varying screen sizes.
+
+## Tech Stack
+
+This website is built using:
+
+- **[Next.js](https://nextjs.org/)**: A React framework for production.
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
