@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import Contact from "@/app/components/Contact";
 import DownloadCV from "@/app/components/DownloadCV";
 import { Heading2 } from "@/app/components/Heading";
 
