@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import DownloadCV from "@/app/components/DownloadCV";
 import { Heading2 } from "@/app/components/Heading";
+import DownloadCV from "@/app/components/DownloadCV";
 
 export default function Home() {
 	return (

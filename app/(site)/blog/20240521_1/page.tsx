@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import { Heading1, Heading2 } from "@/app/components/Heading";
 
 export default function Blog20240521_1() {
