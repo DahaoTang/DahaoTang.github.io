@@ -1,7 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
-import Contact from "@/app/components/Contact";
 import Headbar from "@/app/components/Headbar";
 import { Noto_Sans } from "next/font/google";
 
@@ -40,8 +39,7 @@ export default function RootLayout({
 							>
 								&nbsp;Dahao Tang&nbsp;
 							</a>
-							2024 |
-							<Contact />
+							| 2024 |
 						</div>
 					</div>
 				</div>

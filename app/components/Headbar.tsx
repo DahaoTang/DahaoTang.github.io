@@ -30,6 +30,11 @@ export default function Headbar() {
 					Blogs
 				</a>
 			</div>
+			<div className="flex-1 text-center">
+				<a className="p-2 hover:bg-neutral-900 hover:text-white" href="/contact">
+					Contact
+				</a>
+			</div>
 		</div>
 	);
 }

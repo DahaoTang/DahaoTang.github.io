@@ -1,5 +1,3 @@
-"use client";
-
 interface ContactButtonProps {
 	content: string;
 	url: string;

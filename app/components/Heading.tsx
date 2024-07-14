@@ -1,5 +1,3 @@
-"use client";
-
 interface HeadingProps {
 	content?: string;
 }
