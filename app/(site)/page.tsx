@@ -16,7 +16,7 @@ export default function Home() {
 			</div>
 			<div className="mt-[72px]">
 				<Heading2 content="Education" />
-				<div className="w-[42%] min-w-[60px]">
+				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
 				<Heading3 content="USYD" subcontent="2021 - 2025" />
@@ -28,7 +28,7 @@ export default function Home() {
 			</div>
 			<div className="mt-[24px]">
 				<Heading2 content="Experience" />
-				<div className="w-[42%] min-w-[60px]">
+				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
 				<Heading3 content="USYD Casual Academic" subcontent="2024 Aug - Now" />
@@ -36,7 +36,7 @@ export default function Home() {
 			</div>
 			<div className="mt-[24px]">
 				<Heading2 content="Licenses & Certifications" />
-				<div className="w-[42%] min-w-[60px]">
+				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
 				<Heading3 content="Mensa" />
