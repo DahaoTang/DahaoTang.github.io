@@ -39,7 +39,7 @@ export default function Home() {
 				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
-				<Heading3 content="Mensa" />
+				<Heading3 content="Mensa" subcontent="Issued Jun 2023" />
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
 			</div>
 			<div className="mt-[42px]">
