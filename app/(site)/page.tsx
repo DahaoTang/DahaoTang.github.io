@@ -40,7 +40,7 @@ export default function Home() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						ISYS2120 : Data and Information Management
+						ISYS2120: Data and Information Management
 					</a>
 					&nbsp;- Academic Tutor
 				</p>
