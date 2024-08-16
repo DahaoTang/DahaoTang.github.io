@@ -32,7 +32,18 @@ export default function Home() {
 					<Hr />
 				</div>
 				<Heading3 content="USYD Casual Academic" subcontent="2024 Aug - Now" />
-				<p className="mt-1">ISYS2120: Tutor</p>
+				<p className="mt-1">
+					{" "}
+					<a
+						className="hover:text-red-300"
+						href="https://www.sydney.edu.au/units/ISYS2120"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						ISYS2120 : Data and Information Management
+					</a>
+					&nbsp;- Academic Tutor
+				</p>
 			</div>
 			<div className="mt-[24px]">
 				<Heading2 content="Licenses & Certifications" />
