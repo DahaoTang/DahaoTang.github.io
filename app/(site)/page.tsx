@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Heading2 } from "@/app/components/Heading";
+import { Heading2, Heading3, Heading4, Hr } from "@/app/components/Heading";
 import DownloadCV from "@/app/components/DownloadCV";
 
 export default function Home() {
@@ -15,14 +15,32 @@ export default function Home() {
 				/>
 			</div>
 			<div className="mt-[72px]">
-				<Heading2 content="USYD" />
-				<p>Bachelor of Advanced Computing, majoring in Computer Science</p>
+				<Heading2 content="Education" />
+				<div className="w-[42%]">
+					<Hr />
+				</div>
+				<Heading3 content="USYD" subcontent="2021 - 2025" />
+				<p className="mt-1">
+					Bachelor of Advanced Computing, majoring in Computer Science
+				</p>
 				<p>Bachelor of Commerce, majoring in Finance</p>
-				<p>WAM: Distinction; GPA: 3.8</p>
+				<p>WAM: Distinction</p>
 			</div>
-			<div className="mt-[15px]">
-				<Heading2 content="Mensa" />
-				<p>Australian Mensa member: ID 11196</p>
+			<div className="mt-[24px]">
+				<Heading2 content="Experience" />
+				<div className="w-[42%]">
+					<Hr />
+				</div>
+				<Heading3 content="USYD Casual Academic" subcontent="2024 Aug - Now" />
+				<p className="mt-1">ISYS2120: Tutor</p>
+			</div>
+			<div className="mt-[24px]">
+				<Heading2 content="Licenses & Certifications" />
+				<div className="w-[42%]">
+					<Hr />
+				</div>
+				<Heading3 content="Mensa" />
+				<p className="mt-1">Australian Mensa member: ID 11196</p>
 			</div>
 			<div className="mt-[42px]">
 				<DownloadCV />
