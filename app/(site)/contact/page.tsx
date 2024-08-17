@@ -7,7 +7,7 @@ export default function Contact() {
 			<Heading1 content="Contact" />
 			<div className="pt-3">
 				<ContactButton
-					content="Linkedin"
+					content="LinkedIn"
 					url="https://www.linkedin.com/in/dahao-tang/"
 				/>
 			</div>
