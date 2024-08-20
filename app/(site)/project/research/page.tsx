@@ -11,6 +11,20 @@ const researchProjectsTableColumns = [
 
 const researchProjects = [
 	{
+		Period: "2024 JUL - Now",
+		Name: "ProteHome",
+		Area: "Biology, Database, Web",
+		Description: "Project with Prof. David James at Charles Perkins Centre",
+		URL: "",
+	},
+	{
+		Period: "2024 Aug - Now",
+		Name: "TBD",
+		Area: "ML, DL, AI",
+		Description: "Control theory on CNNs",
+		URL: "",
+	},
+	{
 		Period: "2024 - Now",
 		Name: "TBD",
 		Area: "AI",
