@@ -21,7 +21,8 @@ const researchProjects = [
 		Period: "2024 Aug - Now",
 		Name: "TBD",
 		Area: "ML, DL, AI",
-		Description: "Control theory on CNNs",
+		Description:
+			"Control theory on CNNs for 2024 Australasian Database Conference",
 		URL: "",
 	},
 	{
