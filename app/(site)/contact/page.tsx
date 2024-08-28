@@ -17,9 +17,17 @@ export default function Contact() {
 			<div className="pt-3">
 				<a
 					className="hover:text-blue-300"
+					href="mailto:dahao.tang@sydney.edu.au"
+				>
+					dahao.tang@sydney.edu.au
+				</a>
+			</div>
+			<div className="pt-3">
+				<a
+					className="hover:text-blue-300"
 					href="mailto:dahaotang.work@gmail.com"
 				>
-					dahaotang.work [at] gmail.com
+					dahaotang.work@gmail.com
 				</a>
 			</div>
 		</div>
