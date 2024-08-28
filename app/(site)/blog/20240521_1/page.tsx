@@ -11,7 +11,7 @@ export default function Blog20240521_1() {
 				<div>
 					I rewatched{" "}
 					<a
-						className="hover:text-red-300"
+						className="hover:text-rose-300"
 						href="https://www.youtube.com/watch?v=sal78ACtGTc&t=197s"
 					>
 						Andrew’s talk at Sequoia

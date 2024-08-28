@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Heading2, Heading3, Heading4, Hr } from "@/app/components/Heading";
-import DownloadCV from "@/app/components/DownloadCV";
+import { DefaultButton } from "@/app/components/DefaultButton";
 
 export default function Home() {
 	return (
@@ -54,7 +54,7 @@ export default function Home() {
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
 			</div>
 			<div className="mt-[42px]">
-				<DownloadCV />
+				<DefaultButton label="Download CV" href="Dahao_Tang_CV.pdf" />
 			</div>
 		</div>
 	);

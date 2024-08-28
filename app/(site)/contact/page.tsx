@@ -1,34 +1,35 @@
 import { Heading1 } from "@/app/components/Heading";
-import ContactButton from "@/app/components/ContactButton";
+import { DefaultButton } from "@/app/components/DefaultButton";
 
 export default function Contact() {
 	return (
 		<div>
 			<Heading1 content="Contact" />
-			<div className="pt-3">
-				<ContactButton
-					content="LinkedIn"
-					url="https://www.linkedin.com/in/dahao-tang/"
+			<div className="grid grid-cols-2 gap-5 pt-5">
+				<DefaultButton
+					label="LinkedIn"
+					href="https://www.linkedin.com/in/dahao-tang/"
+					target="_blank"
+					rel="noopener noreferrer"
+					additionalButtonClasses="hover:text-rose-500"
 				/>
-			</div>
-			<div className="pt-3">
-				<ContactButton content="GitHub" url="https://github.com/DahaoTang" />
-			</div>
-			<div className="pt-3">
-				<a
-					className="hover:text-blue-300"
+				<DefaultButton
+					label="Github"
+					href="https://github.com/DahaoTang"
+					target="_blank"
+					rel="noopener noreferrer"
+					additionalButtonClasses="hover:text-rose-500"
+				/>
+				<DefaultButton
+					label="Univeristy Email"
 					href="mailto:dahao.tang@sydney.edu.au"
-				>
-					dahao.tang@sydney.edu.au
-				</a>
-			</div>
-			<div className="pt-3">
-				<a
-					className="hover:text-blue-300"
+					additionalButtonClasses="hover:text-sky-500"
+				/>
+				<DefaultButton
+					label="Gmail"
 					href="mailto:dahaotang.work@gmail.com"
-				>
-					dahaotang.work@gmail.com
-				</a>
+					additionalButtonClasses="hover:text-sky-500"
+				/>
 			</div>
 		</div>
 	);
