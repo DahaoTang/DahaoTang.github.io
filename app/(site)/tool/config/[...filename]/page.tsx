@@ -18,7 +18,7 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 	useEffect(() => {
 		const fetchData = async () => {
 			const fullFilename = params.filename.join(".");
-			const res = await fetch(`/api/tools/config/${fullFilename}`);
+			const res = await fetch(`/api/file/${fullFilename}`);
 			if (res.ok) {
 				const data = await res.json();
 				setContent(data.content);
@@ -43,14 +43,23 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 	};
 
 	return (
-		<div style={{ padding: "20px" }}>
-			<button
-				onClick={handleCopyToClipboard}
-				className="px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-green-300"
-			>
+		<div className="p-[20px]">
+			<div className="flex items-center space-x-4">
 				<Heading1 content={`${filename}`} />
-			</button>
-			{copySuccess && <span className="ml-5">{copySuccess}</span>}
+				<button className="px-2 py-1 outline outline-neutral-900 hover:bg-neutral-900 hover:text-white">
+					<a className="" href={`/files/${filename}`} download>
+						Download
+					</a>
+				</button>
+				<button
+					onClick={handleCopyToClipboard}
+					className="px-2 py-1 outline outline-neutral-900 hover:bg-neutral-900 hover:text-green-300"
+				>
+					Copy
+				</button>
+				{copySuccess && <span className="ml-5">{copySuccess}</span>}
+			</div>
+
 			<pre className="whitespace-pre-wrap break-words mt-10">{content}</pre>
 		</div>
 	);
