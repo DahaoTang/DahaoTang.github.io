@@ -43,7 +43,7 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 	};
 
 	return (
-		<div className="p-[20px]">
+		<div className="p-[10px]">
 			<div className="flex items-center space-x-4">
 				<Heading1 content={`${filename}`} />
 				<button className="px-2 py-1 outline outline-neutral-900 hover:bg-neutral-900 hover:text-white">
@@ -60,7 +60,9 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 				{copySuccess && <span className="ml-5">{copySuccess}</span>}
 			</div>
 
-			<pre className="whitespace-pre-wrap break-words mt-10">{content}</pre>
+			<pre className="whitespace-pre-wrap break-words mt-5 p-2 bg-neutral-300">
+				{content}
+			</pre>
 		</div>
 	);
 };
