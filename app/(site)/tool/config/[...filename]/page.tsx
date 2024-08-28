@@ -53,7 +53,7 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 				</button>
 				<button
 					onClick={handleCopyToClipboard}
-					className="px-2 py-1 outline outline-neutral-900 hover:bg-neutral-900 hover:text-emerald-300"
+					className="px-2 py-1 outline outline-neutral-900 hover:outline-emerald-800 hover:bg-emerald-800 hover:text-white"
 				>
 					Copy
 				</button>
