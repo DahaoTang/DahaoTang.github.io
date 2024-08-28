@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 interface PaginatedListProps {
@@ -14,6 +15,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 	columnNames,
 }) => {
 	const [currentPage, setCurrentPage] = useState<number>(1);
+	const router = useRouter();
 
 	const pageCount = Math.ceil(items.length / itemsPerPage);
 	const indexOfLastItem = currentPage * itemsPerPage;
@@ -22,8 +24,13 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-	const handleRowClick = (url: string) => {
-		if (url) window.open(url, "_blank");
+	const handleRowClick = (url: string | undefined) => {
+		if (url) {
+			const filename = url.split("/").pop(); // Keep the full filename
+			if (filename) {
+				router.push(`/tool/${filename}`);
+			}
+		}
 	};
 
 	return (

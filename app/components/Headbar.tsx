@@ -14,16 +14,9 @@ export default function Headbar() {
 					items={[
 						{ text: "Research Projects", href: "/project/research" },
 						{ text: "Personal Projects", href: "/project/personal" },
+						{ text: "Startups", href: "/project/startup" },
 					]}
 				/>
-			</div>
-			<div className="flex-1 text-center">
-				<a
-					className="p-2 hover:bg-neutral-900 hover:text-white"
-					href="/startup"
-				>
-					Startups
-				</a>
 			</div>
 			<div className="flex-1 text-center">
 				<a className="p-2 hover:bg-neutral-900 hover:text-white" href="/blog">
@@ -31,7 +24,18 @@ export default function Headbar() {
 				</a>
 			</div>
 			<div className="flex-1 text-center">
-				<a className="p-2 hover:bg-neutral-900 hover:text-white" href="/contact">
+				<a
+					className="p-2 hover:bg-neutral-900 hover:text-white"
+					href="/tool"
+				>
+					Tools
+				</a>
+			</div>
+			<div className="flex-1 text-center">
+				<a
+					className="p-2 hover:bg-neutral-900 hover:text-white"
+					href="/contact"
+				>
 					Contact
 				</a>
 			</div>
