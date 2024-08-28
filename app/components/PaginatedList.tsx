@@ -24,12 +24,9 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-	const handleRowClick = (url: string | undefined) => {
-		if (url) {
-			const filename = url.split("/").pop(); // Keep the full filename
-			if (filename) {
-				router.push(`/tool/${filename}`);
-			}
+	const handleRowClick = (url: string) => {
+		if (url.length > 0) {
+			window.open(url, "_blank");
 		}
 	};
 
@@ -60,7 +57,9 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 							key={idx}
 							className="hover:bg-neutral-900 hover:text-white cursor-pointer"
 							onClick={() =>
-								handleRowClick(item[columnNames[columnNames.length - 1]])
+								handleRowClick(
+									item[columnNames[columnNames.length - 1]]
+								)
 							}
 						>
 							{columnNames.map((col, index) => (

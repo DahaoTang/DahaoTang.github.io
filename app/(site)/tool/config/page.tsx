@@ -1,21 +1,26 @@
 import { Heading1 } from "@/app/components/Heading";
 import PaginatedList from "@/app/components/PaginatedList";
 
-const ToolsTableColumns = ["Title", "Description", "Feature", "URL"];
+const ToolsTableColumns = [
+	"Title",
+	"Description",
+	"Feature",
+	"URL",
+];
 
 const tools = [
 	{
 		Title: "init.nvim",
 		Description: "Config file for neovim",
 		Feature: "Full content read and copy",
-		URL: "tools/init.nvim",
+		URL: "/tool/config/init.nvim",
 	},
 ];
 
 export default function Tools() {
 	return (
 		<div className="">
-			<Heading1 content="Tools" />
+			<Heading1 content="Configuration Files" />
 			<div className="flex justify-center pt-3">
 				<div className="flex-grow">
 					<PaginatedList

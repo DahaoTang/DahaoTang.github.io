@@ -8,7 +8,7 @@ export async function GET(
 	{ params }: { params: { filename: string[] } }
 ) {
 	const fullFilename = params.filename.join(".");
-	const filePath = path.join(process.cwd(), "public/tools", fullFilename);
+	const filePath = path.join(process.cwd(), "public/files", fullFilename);
 
 	if (!fs.existsSync(filePath)) {
 		return NextResponse.json({ error: "File not found" }, { status: 404 });

@@ -18,7 +18,7 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 	useEffect(() => {
 		const fetchData = async () => {
 			const fullFilename = params.filename.join(".");
-			const res = await fetch(`/api/tools/${fullFilename}`);
+			const res = await fetch(`/api/tools/config/${fullFilename}`);
 			if (res.ok) {
 				const data = await res.json();
 				setContent(data.content);
