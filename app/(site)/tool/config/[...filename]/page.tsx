@@ -53,13 +53,12 @@ const ToolPage: React.FC<ToolPageProps> = ({ params }) => {
 				</button>
 				<button
 					onClick={handleCopyToClipboard}
-					className="px-2 py-1 outline outline-neutral-900 hover:outline-emerald-800 hover:bg-emerald-800 hover:text-white"
+					className="px-2 py-1 outline outline-neutral-900 hover:outline-sky-500 hover:bg-sky-500 hover:text-white"
 				>
-					Copy
+					{!copySuccess && <div>Copy</div>}
+					{copySuccess && <div>Copied!</div>}
 				</button>
-				{copySuccess && <span className="ml-5">{copySuccess}</span>}
 			</div>
-
 			<pre className="whitespace-pre-wrap break-words mt-5 p-2 bg-neutral-300">
 				{content}
 			</pre>
