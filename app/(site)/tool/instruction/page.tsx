@@ -5,17 +5,17 @@ const ToolsTableColumns = ["Title", "Description", "Feature", "URL"];
 
 const tools = [
 	{
-		Title: "init.nvim",
-		Description: "Config file for neovim",
+		Title: "oh-my-zsh",
+		Description: "Config file for oh-my-zsh",
 		Feature: "Full content read and copy",
-		URL: "/tool/config/init.nvim",
+		URL: "/tool/instruction/omz.md",
 	},
 ];
 
-export default function Config() {
+export default function Instruction() {
 	return (
 		<div className="">
-			<Heading1 content="Configuration Files" />
+			<Heading1 content="Instruction Files" />
 			<div className="flex justify-center pt-3">
 				<div className="flex-grow">
 					<PaginatedList

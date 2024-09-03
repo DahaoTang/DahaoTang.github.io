@@ -26,7 +26,10 @@ export default function Headbar() {
 			<div className="flex-1 text-center">
 				<DropdownMenu
 					triggerText="Tools"
-					items={[{ text: "Config Files", href: "/tool/config" }]}
+					items={[
+						{ text: "Config Files", href: "/tool/config" },
+						{ text: "Instructions", href: "/tool/instruction" },
+					]}
 				/>
 			</div>
 			<div className="flex-1 text-center">
