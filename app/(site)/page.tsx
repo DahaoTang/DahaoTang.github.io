@@ -51,6 +51,7 @@ export default function Home() {
 					<Hr />
 				</div>
 				<Heading3 content="Mensa" subcontent="Issued Jun 2023" />
+				<p className="mt-1">Same age group percentile 99.7% using RAIT</p>
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
 			</div>
 			<div className="mt-[42px]">
