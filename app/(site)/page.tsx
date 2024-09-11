@@ -50,9 +50,9 @@ export default function Home() {
 				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
-				<Heading3 content="Mensa" subcontent="Issued Jun 2023" />
-				<p className="mt-1">Same age group percentile rank 99.7 using RAIT</p>
+				<Heading3 content="Mensa Member" subcontent="Tested and Issued 2023 Jun" />
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
+				<p className="mt-1">Stand Score 141; Percentile Rank: 99.7</p>
 			</div>
 			<div className="mt-[42px]">
 				<DefaultButton label="Download CV" href="Dahao_Tang_CV.pdf" />
