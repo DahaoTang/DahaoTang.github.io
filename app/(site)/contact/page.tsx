@@ -11,7 +11,7 @@ export default function Contact() {
 	return (
 		<div>
 			<Heading1 content="Contact" />
-			<div className="w-[30%] flex flex-col py-10 space-y-10">
+			<div className="w-[100%] flex flex-col py-10 space-y-10">
 				<DefaultButton
 					label="LinkedIn"
 					href="https://www.linkedin.com/in/dahao-tang/"
