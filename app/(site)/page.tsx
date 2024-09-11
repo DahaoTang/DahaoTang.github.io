@@ -50,7 +50,7 @@ export default function Home() {
 				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
-				<Heading3 content="Mensa Member" subcontent="Tested and Issued 2023 Jun" />
+				<Heading3 content="Mensa" subcontent="Tested and Issued 2023 Jun" />
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
 				<p className="mt-1">Stand Score 141; Percentile Rank: 99.7</p>
 			</div>
