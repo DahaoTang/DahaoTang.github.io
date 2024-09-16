@@ -18,12 +18,12 @@ const researchProjects = [
 		URL: "",
 	},
 	{
-		Period: "2024 Aug - Now",
-		Name: "TBD",
-		Area: "ML, DL, AI",
+		Period: "2024 Aug - 2024 Sep",
+		Name: "Stability-Driven CNN Training with Lyapunov-Based Dynamic Learning Rate",
+		Area: "DL, Control Theory, Lyapunov Stability Analysis",
 		Description:
-			"Control theory on CNNs for 2024 Australasian Database Conference",
-		URL: "",
+			"Paper for 2024 Australasian Database Conference",
+		URL: "https://github.com/DahaoTang/ADC-2024-Stability_Driven_CNN_Training_with_Lyapunov_Based_Dynamic_Learning_Rate/",
 	},
 	{
 		Period: "2024 - Now",
