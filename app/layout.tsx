@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 import Headbar from "@/app/components/Headbar";
@@ -27,7 +28,9 @@ export default function RootLayout({
 							<Headbar />
 						</div>
 						<main className="flex-grow p-10">
-							{children} <Analytics />
+							{children}
+							<Analytics />
+							<SpeedInsights />
 						</main>
 						<div className="sticky bottom-0 z-10 h-[42px] pb-3 pt-2 flex items-center justify-center bg-white">
 							Developed by
