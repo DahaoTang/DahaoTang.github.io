@@ -13,7 +13,7 @@ const researchProjects = [
 	{
 		Period: "2024 JUL - Now",
 		Name: "ProteHome",
-		Area: "Biology, Database, Web",
+		Area: "Biology, Dataset, AI",
 		Description: "Project with Prof. David James at Charles Perkins Centre",
 		URL: "",
 	},
