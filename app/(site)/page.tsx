@@ -55,7 +55,7 @@ export default function Home() {
 				<p className="mt-1">Standard Score 141; Percentile Rank: 99.7</p>
 			</div>
 			<div className="mt-[42px]">
-				<DefaultButton label="Download CV" href="Dahao_Tang_CV.pdf" />
+				<DefaultButton label="Download CV" href="CV_Dahao_Tang.pdf" />
 			</div>
 		</div>
 	);
