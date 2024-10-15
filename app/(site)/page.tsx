@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { Heading2, Heading3, Heading4, Hr } from "@/app/components/Heading";
 import { DefaultButton } from "@/app/components/DefaultButton";
+import { Heading2, Heading3, Hr } from "@/app/components/Heading";
 
 export default function Home() {
 	return (

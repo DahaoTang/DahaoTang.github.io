@@ -15,7 +15,7 @@ const startups = [
 		Name: "ioulia",
 		Industry: "AIGC",
 		Description: "A Tarot-based spiritual support chatbot",
-		URL: "https://ioulia.app",
+		URL: "",
 	},
 	{
 		Period: "2023 Mar - Now",
