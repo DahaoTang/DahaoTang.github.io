@@ -14,7 +14,7 @@ export default function Contact() {
 			<div className="w-[100%] flex flex-col py-10 space-y-10">
 				<DefaultButton
 					label="LinkedIn"
-					href="https://www.linkedin.com/in/dahao-tang/"
+					href="https://www.linkedin.com/in/dahaotang/"
 					target="_blank"
 					rel="noopener noreferrer"
 					additionalButtonClasses="hover:outline-rose-500 hover:bg-rose-500"
