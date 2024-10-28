@@ -6,7 +6,7 @@ const ToolsTableColumns = ["Title", "Description", "Feature", "URL"];
 const tools = [
 	{
 		Title: "oh-my-zsh",
-		Description: "Config file for oh-my-zsh",
+		Description: "Instructions for setting up oh-my-zsh",
 		Feature: "Full content read and copy",
 		URL: "/tool/instruction/omz.md",
 	},
