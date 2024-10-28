@@ -27,8 +27,8 @@ export default function Headbar() {
 				<DropdownMenu
 					triggerText="Tools"
 					items={[
-						{ text: "Config Files", href: "/tool/config" },
-						{ text: "Instructions", href: "/tool/instruction" },
+						{ text: "Configs", href: "/tool/config" },
+						{ text: "Instructs", href: "/tool/instruction" },
 					]}
 				/>
 			</div>
