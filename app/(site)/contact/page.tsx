@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Heading1 } from "@/app/components/Heading";
-import { DefaultButton } from "@/app/components/DefaultButton";
 
 export default function Contact() {
 	const [copyUniEmailSuccess, setCopyUniEmailSuccess] = useState<string>("");
