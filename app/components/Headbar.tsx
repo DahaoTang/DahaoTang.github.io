@@ -12,8 +12,8 @@ export default function Headbar() {
 				<DropdownMenu
 					triggerText="Projects"
 					items={[
-						{ text: "Research Projects", href: "/project/research" },
-						{ text: "Personal Projects", href: "/project/personal" },
+						{ text: "Research", href: "/project/research" },
+						{ text: "Personal", href: "/project/personal" },
 						{ text: "Startups", href: "/project/startup" },
 					]}
 				/>
@@ -27,7 +27,7 @@ export default function Headbar() {
 				<DropdownMenu
 					triggerText="Tools"
 					items={[
-						{ text: "Configs", href: "/tool/config" },
+						{ text: "Configs", href: "/tool/configuration" },
 						{ text: "Instructs", href: "/tool/instruction" },
 					]}
 				/>
