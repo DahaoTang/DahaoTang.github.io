@@ -11,32 +11,22 @@ export default function Contact() {
 		<div>
 			<Heading1 content="Contact" />
 			<div className="w-[100%] flex flex-col py-10 space-y-10">
-				<button
-					className={
-						"px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
-					}
+				<a
+					className="inline-flex items-center justify-center px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
+					href="https://www.linkedin.com/in/dahaotang/"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
-					<a
-						href="https://www.linkedin.com/in/dahaotang/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LinkedIn
-					</a>
-				</button>
-				<button
-					className={
-						"px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
-					}
+					LinkedIn
+				</a>
+				<a
+					className="inline-flex items-center justify-center px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
+					href="https://github.com/DahaoTang"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
-					<a
-						href="https://github.com/DahaoTang"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GitHub
-					</a>
-				</button>
+					GitHub
+				</a>
 				<div className="flex items-center">
 					<button
 						onClick={() => {
