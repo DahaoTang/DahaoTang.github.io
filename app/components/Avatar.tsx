@@ -5,7 +5,7 @@ export default function Avatar() {
 		<div>
 			<Image
 				className="rounded-full"
-				src="/images/dahao.jpg"
+				src="/dahao.jpg"
 				alt="Dahao Profile Picture"
 				width={32}
 				height={32}

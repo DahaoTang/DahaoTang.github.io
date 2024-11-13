@@ -92,7 +92,7 @@ export default function Blog20240521_1() {
 					</div>
 					<div className="flex flex-col items-center">
 						<Image
-							src="/images/blogs/20240521_1/cot-exemplar.png"
+							src="/blogs/20240521_1/cot-exemplar.png"
 							alt="Table 25: Few-shot exemplars for full chain of thought prompt for StrategyA."
 							width={700}
 							height={500}
@@ -106,7 +106,7 @@ export default function Blog20240521_1() {
 					</div>
 					<div className="flex flex-col items-center">
 						<Image
-							src="/images/blogs/20240521_1/self-refine.png"
+							src="/blogs/20240521_1/self-refine.png"
 							alt="Self-Refine Illustration"
 							width={700}
 							height={500}
@@ -130,7 +130,7 @@ export default function Blog20240521_1() {
 					</div>
 					<div className="flex flex-col items-center">
 						<Image
-							src="/images/blogs/20240521_1/self-refine-algo.png"
+							src="/blogs/20240521_1/self-refine-algo.png"
 							alt="The Algorithm for Self-Refine"
 							width={700}
 							height={500}

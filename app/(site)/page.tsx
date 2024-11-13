@@ -8,7 +8,7 @@ export default function Home() {
 		<div>
 			<div className="mt-[36px]">
 				<Image
-					src="/images/Dahao_Tang_Signature.jpg"
+					src="/Dahao_Tang_Signature.jpg"
 					alt="Dahao Tang Signature"
 					width={700}
 					height={500}
