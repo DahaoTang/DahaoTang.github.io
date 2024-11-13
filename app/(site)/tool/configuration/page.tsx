@@ -8,7 +8,7 @@ const tools = [
 		Title: "init.nvim",
 		Description: "Config file for neovim",
 		Feature: "Full content read and copy",
-		URL: "/tool/config/init.nvim",
+		URL: "/tool/configuration/init.nvim",
 	},
 ];
 
