@@ -19,7 +19,10 @@ export default function Headbar() {
 				/>
 			</div>
 			<div className="flex-1 text-center">
-				<a className="p-2 hover:bg-neutral-900 hover:text-white" href="/blog">
+				<a
+					className="p-2 hover:bg-neutral-900 hover:text-white"
+					href="https://blog.dahaotang.com"
+				>
 					Blogs
 				</a>
 			</div>
