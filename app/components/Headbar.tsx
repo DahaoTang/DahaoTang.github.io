@@ -30,6 +30,7 @@ export default function Headbar() {
 				<DropdownMenu
 					triggerText="Tools"
 					items={[
+						{ text: "MyGPT", href: "https://mygpt.dahaotang.com/" },
 						{ text: "Configs", href: "/tool/configuration" },
 						{ text: "Instructs", href: "/tool/instruction" },
 					]}
