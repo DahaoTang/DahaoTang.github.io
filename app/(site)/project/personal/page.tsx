@@ -11,6 +11,14 @@ const personalProjectsTableColumns = [
 
 const personalProjects = [
 	{
+		Period: "2025 Jan",
+		Name: "Latex CV",
+		Area: "Latex",
+		Description:
+			"Latex CV in both Chinese and English",
+		URL: "https://github.com/DahaoTang/cv-latex",
+	},
+	{
 		Period: "2024 June",
 		Name: "Personal Website Update",
 		Area: "Web, Next.js, Tailwind",

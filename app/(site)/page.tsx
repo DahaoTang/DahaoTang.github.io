@@ -54,8 +54,19 @@ export default function Home() {
 				<p className="mt-1">Australian Mensa member: ID 11196</p>
 				<p className="mt-1">Standard Score 141; Percentile Rank: 99.7</p>
 			</div>
-			<div className="mt-[42px]">
-				<DefaultButton label="Download CV" href="CV_Dahao_Tang.pdf" />
+			<div className="w-[42%] min-w-[240px] mt-[42px] flex">
+				<div className="w-[220px] mr-5">
+					<DefaultButton
+						label="Download CV (English Version)"
+						href="./cv/cv_english.pdf"
+					/>
+				</div>
+				<div className="w-[220px]">
+					<DefaultButton
+						label="Download CV (Chinese Version)"
+						href="./cv/cv_chinese.pdf"
+					/>
+				</div>
 			</div>
 		</div>
 	);
