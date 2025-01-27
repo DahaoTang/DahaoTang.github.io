@@ -42,7 +42,7 @@ export default function RootLayout({
 							>
 								&nbsp;Dahao Tang&nbsp;
 							</a>
-							| 2024
+							| 2025
 						</div>
 					</div>
 				</div>

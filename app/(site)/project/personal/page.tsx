@@ -14,9 +14,15 @@ const personalProjects = [
 		Period: "2025 Jan",
 		Name: "Latex CV",
 		Area: "Latex",
-		Description:
-			"Latex CV in both Chinese and English",
+		Description: "Latex CV in both Chinese and English",
 		URL: "https://github.com/DahaoTang/cv-latex",
+	},
+	{
+		Period: "2025 Jan",
+		Name: "Émeline (In Progress)",
+		Area: "AI, LLM, Memory",
+		Description: "Your AI assistant with smart memory",
+		URL: "https://emeline.dahaotang.com/",
 	},
 	{
 		Period: "2024 June",
