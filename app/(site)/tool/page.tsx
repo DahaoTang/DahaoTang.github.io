@@ -1,22 +1,28 @@
 import { Heading1 } from "@/app/components/Heading";
 import PaginatedList from "@/app/components/PaginatedList";
 
-const ToolsTableColumns = ["Title", "Description", "Feature", "URL"];
+const ToolsTableColumns = ["Title", "Description", "Type", "URL"];
 
 const tools = [
 	{
+		Title: "oh-my-zsh",
+		Description: "Instructions for setting up oh-my-zsh",
+		Type: "Instruction",
+		URL: "/tool/omz.md",
+	},
+	{
 		Title: "init.nvim",
 		Description: "Config file for neovim",
-		Feature: "Full content read and copy",
-		URL: "/tool/configuration/init.nvim",
+		Type: "Configuration",
+		URL: "/tool/init.nvim",
 	},
 ];
 
-export default function Config() {
+export default function Tools() {
 	return (
 		<div className="">
-			<Heading1 content="Configuration Files" />
-			<div className="flex justify-center pt-3">
+			<Heading1 content="Instruction Files" />
+			<div className="flex justify-center pt-3 pb-10">
 				<div className="flex-grow">
 					<PaginatedList
 						items={tools}

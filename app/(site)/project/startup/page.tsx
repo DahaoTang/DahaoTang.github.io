@@ -11,14 +11,14 @@ const startupsTableColumns = [
 
 const startups = [
 	{
-		Period: "2024 Jan - Now",
+		Period: "2024 Jan - 2024 Aug",
 		Name: "ioulia",
 		Industry: "AIGC",
 		Description: "A Tarot-based spiritual support chatbot",
 		URL: "",
 	},
 	{
-		Period: "2023 Mar - Now",
+		Period: "2023 Mar - 2024 Aug",
 		Name: "GigHero",
 		Industry: "Marketplace",
 		Description: "Online marketplace for onsite services",

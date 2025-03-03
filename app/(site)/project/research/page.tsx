@@ -29,7 +29,7 @@ const researchProjects = [
 		Name: "Stability-Driven CNN Training with Lyapunov-Based Dynamic Learning Rate",
 		Area: "DL, Control Theory, Lyapunov Stability Analysis",
 		Description: "Paper for 2024 Australasian Database Conference",
-		URL: "/project/research/control_cnn",
+		URL: "https://link.springer.com/chapter/10.1007/978-981-96-1242-0_5",
 	},
 ];
 
