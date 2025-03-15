@@ -15,7 +15,7 @@ const researchProjects = [
 		Name: "TBD",
 		Area: "Biology, ML/DL/AI",
 		Description:
-			"Honours project with Dr. Tongliang Liu and Professor David E. James",
+			"Honours project with Dr. Tongliang Liu and Prof. David E. James",
 		URL: "",
 	},
 	{
