@@ -11,6 +11,14 @@ const researchProjectsTableColumns = [
 
 const researchProjects = [
 	{
+		Period: "2025 Feb - Now",
+		Name: "TBD",
+		Area: "Biology, ML/DL/AI",
+		Description:
+			"Honours project with Dr. Tongliang Liu and Professor David E. James",
+		URL: "",
+	},
+	{
 		Period: "2024 JUL - Now",
 		Name: "ProteHome",
 		Area: "Biology, Dataset, AI",
