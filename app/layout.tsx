@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -9,6 +10,11 @@ const noto_sans = Noto_Sans({
 	subsets: ["latin"],
 	display: "swap",
 });
+
+export const metadata: Metadata = {
+	title: "Dahao's Web",
+	description: "Dahao Tang's Personal Website",
+};
 
 export default function RootLayout({
 	children,
