@@ -12,7 +12,7 @@ const noto_sans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-	title: "Dahao's Web",
+	title: "Dahao Tang",
 	description: "Dahao Tang's Personal Website",
 };
 
