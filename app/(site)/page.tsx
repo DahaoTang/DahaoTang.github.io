@@ -36,7 +36,7 @@ export default function Home() {
 				<div className="w-[42%] min-w-[240px]">
 					<Hr />
 				</div>
-				<Heading3 content="USYD Casual Academic" subcontent="2024 Aug - Now" />
+				<Heading3 content="USYD Casual Academic" subcontent="2024 Aug - Present" />
 				<p className="mt-1">
 					{" "}
 					<a
