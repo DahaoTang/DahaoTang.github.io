@@ -27,18 +27,6 @@ export default function Headbar() {
 				</a>
 			</div>
 			<div className="flex-1 text-center">
-				<a className="p-2 hover:bg-neutral-900 hover:text-white" href="/tool">
-					Tools
-				</a>
-				{/* <DropdownMenu
-					triggerText="Tools"
-					items={[
-						{ text: "Configs", href: "/tool/configuration" },
-						{ text: "Instructs", href: "/tool/instruction" },
-					]}
-				/> */}
-			</div>
-			<div className="flex-1 text-center">
 				<a
 					className="p-2 hover:bg-neutral-900 hover:text-white"
 					href="/contact"
