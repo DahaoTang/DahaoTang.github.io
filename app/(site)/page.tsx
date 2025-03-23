@@ -6,28 +6,20 @@ import { Heading1, Heading2, Heading3, Hr } from "@/app/components/Heading";
 export default function Home() {
 	return (
 		<div>
-			<div className="mt-[36px]">
-				{/* <Image
-					src="/Dahao_Tang_Signature.jpg"
-					alt="Dahao Tang Signature"
-					width={700}
-					height={500}
-				/> */}
-				<div className="flex flex-row items-center gap-8 justify-center">
-					<Image
-						src="/Dahao.png"
-						alt="Dahao Tang Profile"
-						width={200}
-						height={200}
-						className="rounded-full object-cover aspect-square object-[50%_10%]"
-					/>
-					<div className="flex flex-col text-left">
-						<p className="text-xl">Hi, My name is Dahao Tang.</p>
-						<p className="mt-1 text-xl">Welcome to my personal website!</p>
-					</div>
+			<div className="mt-[11px] flex flex-row items-center gap-8 justify-center">
+				<Image
+					src="/Dahao.png"
+					alt="Dahao Tang Profile"
+					width={200}
+					height={200}
+					className="rounded-full object-cover aspect-square object-[50%_10%]"
+				/>
+				<div className="flex flex-col text-left">
+					<p className="text-xl">Hi, My name is Dahao Tang.</p>
+					<p className="mt-1 text-xl">Welcome to my personal website!</p>
 				</div>
 			</div>
-			<div className="mt-[72px]">
+			<div className="mt-[42px]">
 				<Heading2 content="Education" />
 				<div className="w-[42%] min-w-[240px]">
 					<Hr />

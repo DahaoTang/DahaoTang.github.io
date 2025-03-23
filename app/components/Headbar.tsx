@@ -26,7 +26,6 @@ export default function Headbar() {
 					]}
 				/>
 			</div>
-
 			<div className="flex-1 text-center">
 				<a
 					className="p-2 hover:bg-neutral-900 hover:text-white"
