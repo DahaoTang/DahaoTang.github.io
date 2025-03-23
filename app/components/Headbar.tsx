@@ -9,6 +9,14 @@ export default function Headbar() {
 				</a>
 			</div>
 			<div className="flex-1 text-center">
+				<a
+					className="p-2 hover:bg-neutral-900 hover:text-white"
+					href="https://blog.dahaotang.com"
+				>
+					Blogs
+				</a>
+			</div>
+			<div className="flex-1 text-center">
 				<DropdownMenu
 					triggerText="Projects"
 					items={[
@@ -18,14 +26,7 @@ export default function Headbar() {
 					]}
 				/>
 			</div>
-			<div className="flex-1 text-center">
-				<a
-					className="p-2 hover:bg-neutral-900 hover:text-white"
-					href="https://blog.dahaotang.com"
-				>
-					Blogs
-				</a>
-			</div>
+
 			<div className="flex-1 text-center">
 				<a
 					className="p-2 hover:bg-neutral-900 hover:text-white"

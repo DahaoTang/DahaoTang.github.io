@@ -1,69 +1,42 @@
-"use client";
-
-import { useState } from "react";
 import { Heading1 } from "@/app/components/Heading";
+import PaginatedList from "@/app/components/PaginatedList";
+import Contact from "./page.backup";
 
-export default function Contact() {
-	const [copyUniEmailSuccess, setCopyUniEmailSuccess] = useState<string>("");
-	const [copyGmailSuccess, setCopyGmailSuccess] = useState<string>("");
+const contactTableColumns = ["Contact", "Value", "URL"];
 
+const Contacts = [
+	{
+		Contact: "LinkedIn",
+		Value: "dahaotang",
+		URL: "https://www.linkedin.com/in/dahaotang/",
+	},
+	{
+		Contact: "GitHub",
+		Value: "DahaoTang",
+		URL: "https://github.com/DahaoTang",
+	},
+	{
+		Contact: "X/Twitter",
+		Value: "dahaotang",
+		URL: "https://x.com/dahaotang",
+	},
+	{
+		Contact: "Email",
+		Value: "dahao【.】tang【@】sydney【.】edu【.】au",
+		URL: "",
+	},
+];
+
+export default function ContactPage() {
 	return (
 		<div>
-			<Heading1 content="Contact" />
-			<div className="w-[100%] flex flex-col py-10 space-y-10">
-				<a
-					className="inline-flex items-center justify-center px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
-					href="https://www.linkedin.com/in/dahaotang/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					LinkedIn
-				</a>
-				<a
-					className="inline-flex items-center justify-center px-3 py-2 outline outline-neutral-900 hover:bg-neutral-900 hover:text-rose-300"
-					href="https://github.com/DahaoTang"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					GitHub
-				</a>
-				<div className="flex items-center">
-					<button
-						onClick={() => {
-							navigator.clipboard.writeText("dahao.tang@sydney.edu.au").then(
-								() => {
-									setCopyUniEmailSuccess("Uni email copied!");
-									setCopyGmailSuccess("");
-								},
-								() => {
-									setCopyUniEmailSuccess("Failed to copy!");
-								}
-							);
-						}}
-						className="w-full px-3 py-2 outline outline-neutral-900  hover:bg-neutral-900 hover:text-green-300"
-					>
-						{copyUniEmailSuccess && <div>Uni email copied!</div>}
-						{!copyUniEmailSuccess && <div>dahao.tang@sydney.edu.au</div>}
-					</button>
-				</div>
-				<div className="flex items-center">
-					<button
-						onClick={() => {
-							navigator.clipboard.writeText("dahaotang.work@gmail.com").then(
-								() => {
-									setCopyGmailSuccess("Gmail copied!");
-									setCopyUniEmailSuccess("");
-								},
-								() => {
-									setCopyGmailSuccess("Failed to copy!");
-								}
-							);
-						}}
-						className="w-full px-3 py-2 outline outline-neutral-900  hover:bg-neutral-900 hover:text-green-300"
-					>
-						{copyGmailSuccess && <div>Gmail copied!</div>}
-						{!copyGmailSuccess && <div>dahaotang.work@gmail.com</div>}
-					</button>
+			<div className="flex justify-center pt-3">
+				<div className="flex-grow">
+					<PaginatedList
+						items={Contacts}
+						itemsPerPage={10}
+						columnNames={contactTableColumns}
+					/>
 				</div>
 			</div>
 		</div>
