@@ -21,9 +21,9 @@ export default function Headbar() {
 					triggerText="Projects"
 					items={[
 						{ text: "Research", href: "/project/research" },
-						{ text: "Collaboration", href: "/project/collaborated" },
+						{ text: "Collaborated", href: "/project/collaborated" },
 						{ text: "Personal", href: "/project/personal" },
-						{ text: "Startups", href: "/project/startup" },
+						{ text: "Startup", href: "/project/startup" },
 					]}
 				/>
 			</div>
