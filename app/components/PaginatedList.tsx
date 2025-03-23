@@ -57,9 +57,7 @@ const PaginatedList: React.FC<PaginatedListProps> = ({
 							key={idx}
 							className="hover:bg-neutral-900 hover:text-white cursor-pointer"
 							onClick={() =>
-								handleRowClick(
-									item[columnNames[columnNames.length - 1]]
-								)
+								handleRowClick(item[columnNames[columnNames.length - 1]])
 							}
 						>
 							{columnNames.map((col, index) => (

@@ -29,7 +29,7 @@ const Contacts = [
 export default function ContactPage() {
 	return (
 		<div>
-			<Heading1 content="Contact Details" />
+			{/* <Heading1 content="Contact Details" /> */}
 			<div className="flex justify-center pt-3">
 				<div className="flex-grow">
 					<PaginatedList
