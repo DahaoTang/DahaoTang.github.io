@@ -1,6 +1,5 @@
 import { Heading1 } from "@/app/components/Heading";
 import PaginatedList from "@/app/components/PaginatedList";
-import Contact from "./page.backup";
 
 const contactTableColumns = ["Contact", "Value", "URL"];
 
@@ -30,6 +29,7 @@ const Contacts = [
 export default function ContactPage() {
 	return (
 		<div>
+			<Heading1 content="" />
 			<div className="flex justify-center pt-3">
 				<div className="flex-grow">
 					<PaginatedList
