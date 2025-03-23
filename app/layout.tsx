@@ -28,7 +28,7 @@ export default function RootLayout({
 			</head>
 			<body className={`${noto_sans.className}`}>
 				<div className="flex justify-center text-neutral-900 text-sm">
-					{/* Magic screen width for my love */}
+					{/* Magic number screen width for my love */}
 					<div className="min-w-screen max-w-[812px] w-full min-h-screen flex flex-col bg-white">
 						<div className="sticky top-0 z-10 h-[42px] bg-white">
 							<Headbar />
