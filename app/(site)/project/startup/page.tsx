@@ -22,7 +22,7 @@ const startups = [
 		Name: "GigHero",
 		Industry: "Marketplace",
 		Description: "Online marketplace for onsite services",
-		URL: "https://gighero.com.au",
+		URL: "",
 	},
 ];
 

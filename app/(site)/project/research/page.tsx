@@ -11,24 +11,17 @@ const researchProjectsTableColumns = [
 
 const researchProjects = [
 	{
-		Period: "2025 Feb - Now",
+		Period: "2025 Feb - Present",
 		Name: "TBD",
 		Area: "Biology, ML/DL/AI",
 		Description:
-			"Honours project with Dr. Tongliang Liu and Prof. David E. James",
+			"Honours project with Prof. Tongliang Liu and Prof. David E. James",
 		URL: "",
 	},
 	{
-		Period: "2024 JUL - Now",
-		Name: "ProteHome",
-		Area: "Biology, Dataset, AI",
-		Description: "Project with Prof. David James at Charles Perkins Centre",
-		URL: "",
-	},
-	{
-		Period: "2024 - Now",
+		Period: "2024 - Present",
 		Name: "TBD",
-		Area: "AI",
+		Area: "Scaling Law, Control Theory, ML/DL/AI",
 		Description: "Contrl theory on LLMs",
 		URL: "",
 	},
