@@ -7,17 +7,17 @@ const contactTableColumns = ["Contact", "Value", "URL"];
 const Contacts = [
 	{
 		Contact: "LinkedIn",
-		Value: "dahaotang",
+		Value: "https://www.linkedin.com/in/dahaotang/",
 		URL: "https://www.linkedin.com/in/dahaotang/",
 	},
 	{
 		Contact: "GitHub",
-		Value: "DahaoTang",
+		Value: "https://github.com/DahaoTang",
 		URL: "https://github.com/DahaoTang",
 	},
 	{
 		Contact: "X/Twitter",
-		Value: "dahaotang",
+		Value: "https://x.com/dahaotang",
 		URL: "https://x.com/dahaotang",
 	},
 	{
