@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the GitHub repository for my personal website, [dahaotang.com](https://dahaotang.com). This repository hosts the source code for the third iteration (v4) of the site. The design philosophy focuses on simplicity and providing optimal viewing on devices of varying screen sizes.
+Welcome to the GitHub repository for my personal website, [dahaotang.com](https://dahaotang.com). This repository hosts the source code for the third iteration (v4) of the site.
 
 ## Tech Stack
 
