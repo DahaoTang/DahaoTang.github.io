@@ -7,7 +7,7 @@ import Research from "./components/research";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <div className="text-xl">Dahao Tang</div>
       <div className="pt-5">
         <Contact />
