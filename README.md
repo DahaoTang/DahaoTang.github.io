@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the GitHub repository for my personal website, [dahaotang.com](https://dahaotang.com). This repository hosts the source code for the third iteration (v4) of the site.
+This repository hosts the source code for the fourth iteration (v4) of [my personal website](https://dahaotang.com).
 
 ## Tech Stack
 
