@@ -12,7 +12,7 @@ export default function Experience() {
           2024 S2 ISYS2120: Data and Information Management
         </div>
         <div className="pl-2">
-          2025 S1 COMP9120: Database Management Systems (Contact Only)
+          2025 S1 COMP9120: Database Management Systems (Contract Only)
         </div>
       </div>
       <div>
