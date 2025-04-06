@@ -13,7 +13,7 @@ export default function Projects() {
           Émeline
         </a>
         : Agent with smart memory (In progress)
-        <a className="text-blue-600" href="video/emeline-demo.mp4">
+        <a className="text-blue-600" href="https://vimeo.com/1073007297/8ba13cb601">
           {" "}
           Demo
         </a>
