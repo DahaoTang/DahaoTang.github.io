@@ -26,14 +26,13 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${noto_sans.className}`}>
-          <div className="min-w-screen w-full min-h-screen flex flex-col items-center justify-center text-neutral-900 bg-white">
-            <main className="">
-              {children}
-              <Analytics />
-              <SpeedInsights />
-            </main>
-          </div>
-        {/* </div> */}
+        <div className="min-w-screen w-full min-h-screen flex flex-col items-center justify-center text-neutral-900 bg-white">
+          <main className="">
+            {children}
+            <Analytics />
+            <SpeedInsights />
+          </main>
+        </div>
       </body>
     </html>
   );
