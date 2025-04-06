@@ -27,7 +27,7 @@ export default function RootLayout({
       </head>
       <body className={`${noto_sans.className}`}>
         <div className="w-screen min-h-screen flex justify-center">
-          <div className="max-w-[812px] text-neutral-900 bg-white">
+          <div className="max-w-[812px] text-sm text-neutral-900 bg-white">
             <main className="p-10">
               {children}
               <Analytics />
