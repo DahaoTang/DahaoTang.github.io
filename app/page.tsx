@@ -13,10 +13,10 @@ export default function Home() {
         <Contact />
       </div>
       <div className="pt-5">
-        <Education />
+        <CV />
       </div>
       <div className="pt-5">
-        <CV />
+        <Education />
       </div>
       <div className="pt-5">
         <Experience />
