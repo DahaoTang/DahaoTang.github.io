@@ -8,7 +8,7 @@ export default function Contact() {
       <div>
         Github:
         <a className="pl-1 text-blue-600" href="https://github.com/DahaoTang">
-          https://github.com/DahaoTang
+          github.com/DahaoTang
         </a>
       </div>
       <div>
@@ -17,7 +17,7 @@ export default function Contact() {
           className="pl-1 text-blue-600"
           href="https://www.linkedin.com/in/dahaotang/"
         >
-          https://www.linkedin.com/in/dahaotang/
+          www.linkedin.com/in/dahaotang/
         </a>
       </div>
     </div>
