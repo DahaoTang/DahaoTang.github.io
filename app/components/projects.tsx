@@ -4,9 +4,9 @@ export default function Projects() {
       <div className="pb-1 text-lg">Projects</div>
       <div>
         <a className="text-blue-600" href="https://blog.dahaotang.com/">
-          Blogs
+          Blog
         </a>
-        : My personal blogs
+        : My personal blog
       </div>
       <div>
         <a className="text-blue-600" href="https://emeline.dahaotang.com/">
