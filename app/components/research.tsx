@@ -4,6 +4,18 @@ export default function Research() {
       <div className="text-lg pb-1">Research</div>
       <div className="pb-1">
         <div>
+          <span className="pr-1 text-neutral-500">AAAI 2026 Oral</span>
+          <a className="text-blue-600" href="">
+            Optimal Look-back Horizon for Time Series Forecasting in Federated
+            Learning
+          </a>
+        </div>
+        <div className="pl-2">
+          Dahao Tang, Nan Yang, Yanli Li, Zhiyu Zhu, Zhibo Jin, Dong Yuan
+        </div>
+      </div>
+      <div className="pb-1">
+        <div>
           <span className="pr-1 text-neutral-500">ADC 2024</span>
           <a
             className="text-blue-600"
