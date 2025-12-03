@@ -25,17 +25,17 @@ export function ProfileSidebar() {
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
             {PROFILE.name}
           </h1>
-          <h2 className="pt-2 text-lg text-muted-foreground font-medium">
+          {/* <h2 className="pt-2 text-lg text-muted-foreground font-medium">
             {PROFILE.title}
-          </h2>
+          </h2> */}
         </div>
 
         <div className="flex flex-col gap-3">
           <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
               <span>{PROFILE.location}</span>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
               <a
@@ -67,7 +67,7 @@ export function ProfileSidebar() {
               </Link>
             </Button>
 
-            <Button variant="outline" size="icon" asChild>
+            <Button variant="outline" size="icon" className="ml-5 w-15" asChild>
               <a
                 href={PROFILE.cvLink}
                 target="_blank"
