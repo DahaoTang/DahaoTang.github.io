@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    // { name: "About", href: "/about" },
+    { name: "Blog", href: "https://blog.dahaotang.com" },
     // { name: "Projects", href: "/projects" },
     // { name: "Contact", href: "/contact" },
   ];
