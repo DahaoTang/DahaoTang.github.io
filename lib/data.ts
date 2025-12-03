@@ -48,7 +48,7 @@ export const PROJECTS = [
     tags: ["Next.js", "Slack", "OpenAI API"],
   },
   {
-    title: "Next.js Project Authentication Template",
+    title: "Next.js Authentication Template",
     link: "https://github.com/DahaoTang/nextjs-auth-server-action-template",
     description: "Nextjs authentication template using server actions",
     tags: ["Next.js", "OAuth"],
