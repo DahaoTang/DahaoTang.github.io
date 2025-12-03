@@ -1,32 +1,37 @@
-import Contact from "./components/contact";
-import CV from "./components/cv";
-import Education from "./components/education";
-import Experience from "./components/experience";
-import Projects from "./components/projects";
-import Research from "./components/research";
+import { ProfileSidebar } from "@/components/profile-sidebar";
+import { ExperienceSection } from "@/components/experience-section";
+import { ProjectsSection } from "@/components/projects-section";
+import { PublicationsSection } from "@/components/publications-section";
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="text-xl">Dahao Tang</div>
-      <div className="pt-5">
-        <Contact />
+    <section className="min-h-[80vh] py-8">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12 w-full">
+        {/* --- LEFT COLUMN --- */}
+        <ProfileSidebar />
+
+        {/* --- RIGHT COLUMN --- */}
+        <div className="md:col-span-8 flex flex-col gap-10">
+          {/* Bio Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+              About Me
+            </h3>
+            <p className="text-foreground/80 leading-relaxed text-base md:text-md">
+              I believe biology holds the blueprint for Artificial General
+              Intelligence (AGI). My work bridges two worlds: I use AI to solve
+              biological problems, and I use biological insights to build
+              smarter AI. Currently, I am a graduate researcher at the
+              University of Sydney, working under the supervision of Prof. David
+              James and Prof. Jinman Kim.
+            </p>
+          </div>
+
+          <ExperienceSection />
+          <ProjectsSection />
+          <PublicationsSection />
+        </div>
       </div>
-      <div className="pt-5">
-        <CV />
-      </div>
-      <div className="pt-5">
-        <Education />
-      </div>
-      <div className="pt-5">
-        <Experience />
-      </div>
-      <div className="pt-5">
-        <Research />
-      </div>
-      <div className="pt-5">
-        <Projects />
-      </div>
-    </div>
+    </section>
   );
 }

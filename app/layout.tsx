@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { Outfit } from "next/font/google";
 import "./globals.css";
-import { Noto_Sans } from "next/font/google";
+import { cn } from "@/lib/utils";
+import Navbar from "@/components/navbar";
 
-const noto_sans = Noto_Sans({
+const outfit = Outfit({
   subsets: ["latin"],
-  display: "swap",
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -21,20 +20,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${noto_sans.className}`}>
-        <div className="w-screen min-h-screen flex justify-center">
-          <div className="max-w-[812px] text-sm text-neutral-900 bg-white">
-            <main className="pt-10 xl:pl-30 lg:pl-25 md:pl-20 pl-15 pr-15">
-              {children}
-              <Analytics />
-              <SpeedInsights />
-            </main>
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased flex flex-col",
+          outfit.variable
+        )}
+      >
+        <Navbar />
+        <main className="mx-auto w-full max-w-7xl px-6 pt-20 pb-6 flex-1">
+          {children}
+        </main>
+        <footer className="w-full border-t py-6 bg-background">
+          <div className="mx-auto max-w-7xl px-6 text-center text-sm text-muted-foreground">
+            Developed by Dahao Tang 2025
           </div>
-        </div>
+        </footer>
       </body>
     </html>
   );
