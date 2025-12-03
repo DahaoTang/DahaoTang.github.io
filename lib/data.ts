@@ -1,11 +1,10 @@
-import { Briefcase, Code, BookOpen } from "lucide-react";
-
 export const PROFILE = {
   name: "Dahao Tang",
   title: "AI for Metabolism | University of Sydney",
   location: "Sydney, Australia",
   email: "dahao.tang@sydney.edu.au",
   image: "/profile.jpg",
+  cvLink: "/dahao_cv.pdf",
   social: {
     github: "https://github.com/DahaoTang",
     linkedin: "https://linkedin.com/in/dahaotang",

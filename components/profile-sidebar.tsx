@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Mail, GraduationCap } from "lucide-react";
+import { MapPin, Mail, GraduationCap, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GithubIcon, LinkedinIcon } from "@/components/custom-icons";
 import { PROFILE, EDUCATION } from "@/lib/data";
@@ -65,6 +65,19 @@ export function ProfileSidebar() {
               >
                 <LinkedinIcon className="h-4 w-4" />
               </Link>
+            </Button>
+
+            <Button variant="outline" size="icon" asChild>
+              <a
+                href={PROFILE.cvLink}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Download CV"
+                title="Download CV"
+                download
+              >
+                <FileText className="h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>

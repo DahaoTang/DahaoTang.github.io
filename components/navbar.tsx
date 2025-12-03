@@ -17,7 +17,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="fixed top-0 left-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-6">
         {/* --- LOGO --- */}
         <div className="flex items-center">
@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="transition-colors hover:text-foreground/80 text-foreground/60 hover:text-primary"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               {link.name}
             </Link>
@@ -67,7 +67,7 @@ export default function Navbar() {
           // 1. Changed 'fixed' to 'absolute' so it hangs off the header correctly.
           // 2. Changed 'top-14' to 'top-full' (starts exactly where header ends).
           // 3. Added 'h-[calc(100vh-3.5rem)]' so it fills the rest of the screen exactly.
-          className="md:hidden absolute top-full left-0 w-full h-[calc(100vh-3.5rem)] z-40 overflow-y-auto bg-background/30 backdrop-blur-lg supports-[backdrop-filter]:bg-background/80"
+          className="md:hidden absolute top-full left-0 w-full h-[calc(100vh-3.5rem)] z-40 overflow-y-auto bg-background/30 backdrop-blur-lg supports-backdrop-filter:bg-background/80"
         >
           <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col space-y-6 items-end">
             {navLinks.map((link) => (
