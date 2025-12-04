@@ -22,8 +22,21 @@ export default function Home() {
               Intelligence (AGI). My work bridges two worlds: I use AI to solve
               biological problems, and I use biological insights to build
               smarter AI. Currently, I am a graduate researcher at the
-              University of Sydney, working under the supervision of Prof. David
-              James and Prof. Jinman Kim.
+              University of Sydney, working under the supervision of{" "}
+              <a
+                href="https://www.sydney.edu.au/science/about/our-people/academic-staff/david-james.html"
+                className="hover:underline hover:text-slate-900 hover:font-semibold"
+              >
+                Prof. David James
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/jinman-kim.html"
+                className="hover:underline hover:text-slate-900 hover:font-semibold"
+              >
+                Prof. Jinman Kim
+              </a>
+              .
             </p>
           </div>
 
