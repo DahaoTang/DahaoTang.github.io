@@ -89,7 +89,7 @@ export function ProfileSidebar() {
                 title="Download CV"
                 download
               >
-                <FileText className="h-5 w-5" />
+                <FileText className="h-4 w-5" />
               </a>
             </Button>
           </div>
