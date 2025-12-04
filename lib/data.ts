@@ -21,7 +21,7 @@ export const EDUCATION = [
   },
   {
     degree:
-      "Bachelor of Advanced Computing (Computer Science, with First Class Honours)",
+      "Bachelor of Advanced Computing (Computer Science, Honours)",
     school: "University of Sydney",
     period: "2021 — 2025",
   },
