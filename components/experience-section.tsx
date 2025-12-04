@@ -6,7 +6,7 @@ export function ExperienceSection() {
     <section className="flex flex-col gap-4">
       <div className="flex items-center gap-2 border-b pb-2">
         <Briefcase className="h-5 w-5 text-primary" />
-        <h3 className="text-lg font-semibold">Selected Experience</h3>
+        <h3 className="text-lg font-semibold">Experience</h3>
       </div>
 
       <div className="flex flex-col gap-8">

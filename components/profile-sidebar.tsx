@@ -2,7 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Mail, GraduationCap, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { GithubIcon, LinkedinIcon } from "@/components/custom-icons";
+import {
+  GithubIcon,
+  GoogleScholarIcon,
+  LinkedinIcon,
+} from "@/components/custom-icons";
 import { PROFILE, EDUCATION } from "@/lib/data";
 
 export function ProfileSidebar() {
@@ -25,17 +29,17 @@ export function ProfileSidebar() {
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
             {PROFILE.name}
           </h1>
-          {/* <h2 className="pt-2 text-lg text-muted-foreground font-medium">
+          <h2 className="pt-2 text-lg text-muted-foreground font-medium">
             {PROFILE.title}
-          </h2> */}
+          </h2>
         </div>
 
         <div className="flex flex-col gap-3">
           <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-            {/* <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
               <span>{PROFILE.location}</span>
-            </div> */}
+            </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
               <a
@@ -64,6 +68,15 @@ export function ProfileSidebar() {
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className="h-4 w-4" />
+              </Link>
+            </Button>
+            <Button variant="outline" size="icon" className="h-8 w-8" asChild>
+              <Link
+                href={PROFILE.social.googleScholar}
+                target="_blank"
+                aria-label="GoogleScholar"
+              >
+                <GoogleScholarIcon className="h-4 w-4" />
               </Link>
             </Button>
 
