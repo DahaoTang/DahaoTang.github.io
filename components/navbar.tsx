@@ -12,7 +12,6 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Blog", href: "https://blog.dahaotang.com" },
-    // { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -61,13 +60,7 @@ export default function Navbar() {
 
       {/* --- MOBILE MENU --- */}
       {isOpen && (
-        <div
-          // FIXED:
-          // 1. Changed 'fixed' to 'absolute' so it hangs off the header correctly.
-          // 2. Changed 'top-14' to 'top-full' (starts exactly where header ends).
-          // 3. Added 'h-[calc(100vh-3.5rem)]' so it fills the rest of the screen exactly.
-          className="md:hidden absolute top-full left-0 w-full h-[calc(100vh-3.5rem)] z-40 overflow-y-auto bg-background/30 backdrop-blur-lg supports-backdrop-filter:bg-background/80"
-        >
+        <div className="md:hidden absolute top-full left-0 w-full h-[calc(100vh-3.5rem)] z-40 overflow-y-auto bg-background/30 backdrop-blur-lg supports-backdrop-filter:bg-background/80">
           <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col space-y-6 items-end">
             {navLinks.map((link) => (
               <Link

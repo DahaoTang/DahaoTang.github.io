@@ -29,7 +29,7 @@ export function ProfileSidebar() {
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
             {PROFILE.name}
           </h1>
-          <h2 className="pt-2 text-lg text-muted-foreground font-medium">
+          <h2 className="pt-1 text-lg text-muted-foreground font-medium">
             {PROFILE.title}
           </h2>
         </div>
