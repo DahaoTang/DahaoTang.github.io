@@ -52,7 +52,7 @@ export const PROJECTS = [
     title: "Personal website",
     period: "2023 Sep - Present",
     link: "https://github.com/DahaoTang/DahaoTang.github.io",
-    description: "Persona website, current version: 5",
+    description: "Personal website, current version: 5",
     tags: ["Next.js", "Tailwind", "Shadcn.ui"],
   },
   {
