@@ -88,7 +88,7 @@ export const PROJECTS = [
   },
   {
     title: "Next.js Authentication Template",
-    period: "2024 Nov",
+    period: "2024 Jan",
     link: "https://github.com/DahaoTang/nextjs-auth-server-action-template",
     description: "Nextjs authentication template using server actions",
     tags: ["Next.js", "OAuth"],
