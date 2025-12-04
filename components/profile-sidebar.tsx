@@ -80,7 +80,7 @@ export function ProfileSidebar() {
               </Link>
             </Button>
 
-            <Button variant="outline" size="icon" className="w-15" asChild>
+            <Button variant="outline" size="icon" className="h-8 w-15" asChild>
               <a
                 href={PROFILE.cvLink}
                 target="_blank"
@@ -89,7 +89,7 @@ export function ProfileSidebar() {
                 title="Download CV"
                 download
               >
-                <FileText className="h-4 w-5" />
+                <FileText className="h-4 w-4" />
               </a>
             </Button>
           </div>
