@@ -80,7 +80,7 @@ export function ProfileSidebar() {
               </Link>
             </Button>
 
-            <Button variant="outline" size="icon" className="ml-5 w-15" asChild>
+            <Button variant="outline" size="icon" className="w-15" asChild>
               <a
                 href={PROFILE.cvLink}
                 target="_blank"
