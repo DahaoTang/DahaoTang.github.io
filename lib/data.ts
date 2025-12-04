@@ -1,6 +1,6 @@
 export const PROFILE = {
   name: "Dahao Tang",
-  title: "MPhil Student | University of Sydney",
+  title: "AI for Biology | University of Sydney",
   location: "Sydney, Australia; Nanjing, China",
   email: "dahao.tang@sydney.edu.au",
   image: "/profile.jpg",
