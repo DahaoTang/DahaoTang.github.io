@@ -25,14 +25,14 @@ export default function Home() {
               University of Sydney, working under the supervision of{" "}
               <a
                 href="https://www.sydney.edu.au/science/about/our-people/academic-staff/david-james.html"
-                className="hover:underline hover:text-slate-900 hover:font-semibold"
+                className="hover:underline hover:text-slate-900"
               >
                 Prof. David James
               </a>{" "}
               and{" "}
               <a
                 href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/jinman-kim.html"
-                className="hover:underline hover:text-slate-900 hover:font-semibold"
+                className="hover:underline hover:text-slate-900"
               >
                 Prof. Jinman Kim
               </a>
