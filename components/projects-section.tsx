@@ -15,7 +15,7 @@ export function ProjectsSection() {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="group relative pl-3 border-l-2 border-slate-100 hover:border-slate-400 transition-colors"
+            className="group relative pl-4 border-l-2 border-slate-100 hover:border-slate-400 transition-colors"
           >
             <div className="flex flex-wrap items-baseline justify-between gap-x-2">
               <h4 className="font-medium text-slate-900 text-md">
