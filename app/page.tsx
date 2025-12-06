@@ -17,12 +17,12 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
               About Me
             </h3>
-            <p className="text-foreground/80 leading-relaxed text-base md:text-md">
+            <p className="text-foreground/80 leading-relaxed text-base md:text-sm">
               I believe biology holds the blueprint for Artificial General
               Intelligence (AGI). My work bridges two worlds: I use AI to solve
               biological problems, and I use biological insights to build
-              smarter AI. Currently, I am a graduate researcher at the
-              University of Sydney, working under the supervision of{" "}
+              smarter AI. Currently, I am a graduate student and research
+              assistant at the University of Sydney, co-supervised by{" "}
               <a
                 href="https://www.sydney.edu.au/science/about/our-people/academic-staff/david-james.html"
                 className="hover:underline hover:text-slate-900"
