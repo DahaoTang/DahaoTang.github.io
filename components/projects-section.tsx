@@ -1,4 +1,4 @@
-import { Code, ArrowUpRight } from "lucide-react"; // Added ArrowUpRight
+import { Code, ArrowUpRight } from "lucide-react";
 import { PROJECTS } from "@/lib/data";
 
 export function ProjectsSection() {
