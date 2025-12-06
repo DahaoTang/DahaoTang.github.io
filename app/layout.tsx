@@ -37,7 +37,7 @@ export default function RootLayout({
         </main>
         <footer className="w-full border-t py-6 bg-background">
           <div className="mx-auto max-w-7xl px-6 text-center text-sm text-muted-foreground">
-            Developed by Dahao Tang 2025
+            Developed by Dahao Tang, Ver. 2025 Dec
           </div>
         </footer>
       </body>
