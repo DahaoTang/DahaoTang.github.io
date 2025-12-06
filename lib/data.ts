@@ -41,7 +41,7 @@ export const EXPERIENCE = [
     role: "Research Assistant",
     company: "David James Lab, Charles Perkins Centre, University of Sydney",
     period: "2024 Jul — Present",
-    description: "Platform that supports cross-dataset analysis",
+    description: "ProteHome: A platform that stores multi-omics data and supports cross-dataset analysis",
   },
   {
     role: "Academic Tutor",
