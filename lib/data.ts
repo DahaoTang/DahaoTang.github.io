@@ -39,13 +39,13 @@ export const EDUCATION = [
 export const EXPERIENCE = [
   {
     role: "Research Assistant",
-    company: "David James Lab, Charles Perkins Centre",
+    company: "David James Lab, Charles Perkins Centre, University of Sydney",
     period: "2024 Jul — Present",
     description: "Platform that supports cross-dataset analysis",
   },
   {
     role: "Academic Tutor",
-    company: "School of Computer Science, the University of Sydney",
+    company: "School of Computer Science, University of Sydney",
     period: "2024 Aug — 2025 Jan",
     description: "ISYS2120: Data and Information Management",
   },
