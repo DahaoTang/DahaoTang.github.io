@@ -100,16 +100,16 @@ export function ProfileSidebar() {
       <div className="flex flex-col gap-3 pt-4 border-t">
         <div className="flex items-center gap-2">
           <GraduationCap className="h-4 w-4 text-primary" />
-          <h3 className="text-sm font-semibold">Education</h3>
+          <h3 className="text-lg font-semibold">Education</h3>
         </div>
 
         <div className="flex flex-col gap-4">
           {EDUCATION.map((edu, index) => (
             <div key={index}>
-              <div className="text-sm font-medium text-foreground">
+              <div className="text-md font-medium text-foreground">
                 {edu.degree}
               </div>
-              <div className="text-xs text-muted-foreground">{edu.school}</div>
+              <div className="text-sm text-muted-foreground">{edu.school}</div>
               <div className="text-xs text-muted-foreground mt-0.5">
                 {edu.period}
               </div>
