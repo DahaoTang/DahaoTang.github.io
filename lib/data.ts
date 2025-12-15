@@ -41,7 +41,8 @@ export const EXPERIENCE = [
     role: "Research Assistant",
     company: "David James Lab, Charles Perkins Centre, University of Sydney",
     period: "2024 Jul — Present",
-    description: "ProteHome: A platform that stores multi-omics data and supports cross-dataset analysis",
+    description:
+      "ProteHome: A platform that stores multi-omics data and supports cross-dataset analysis",
   },
   {
     role: "Academic Tutor",
@@ -52,6 +53,14 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "LaTeX template",
+    period: "2025 Dec",
+    link: "https://github.com/DahaoTang/dahao-latex-templates",
+    description:
+      "LaTeX template, currently support: slides in USYD-like theme and a deep-blue casual theme",
+    tags: ["LaTeX", "XeLaTex", "Makefile"],
+  },
   {
     title: "Personal website",
     period: "2023 Sep - Present",
