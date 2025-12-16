@@ -56,9 +56,9 @@ export const PROJECTS = [
   {
     title: "LaTeX template",
     period: "2025 Dec",
-    link: "https://github.com/DahaoTang/dahao-latex-templates",
+    link: "https://github.com/DahaoTang/latex-templates",
     description:
-      "LaTeX template, currently support: slides in USYD-like theme and a deep-blue casual theme",
+      "LaTeX template, currently support: slides, poster templates in USYD-like theme and a deep-blue casual theme, a classic latex CV template",
     tags: ["LaTeX", "XeLaTex", "Makefile"],
   },
   {
