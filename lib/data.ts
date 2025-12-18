@@ -47,7 +47,7 @@ export const EXPERIENCE = [
   {
     role: "Academic Tutor",
     company: "School of Computer Science, University of Sydney",
-    period: "2024 Aug — 2025 Jan",
+    period: "2024 Aug — 2025 Feb",
     description: "ISYS2120: Data and Information Management",
   },
 ];
