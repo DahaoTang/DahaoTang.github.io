@@ -94,7 +94,7 @@ export const PROJECTS = [
   },
   {
     title: "Émeline",
-    period: "2023 Dec - 2024 Feb",
+    period: "2024 Dec - 2025 Feb",
     link: "https://vimeo.com/1073007297/8ba13cb601",
     description: "Agent with smart memory (In progress)",
     tags: ["Next.js", "Convex", "OpenAI API"],
