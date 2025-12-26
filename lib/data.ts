@@ -14,18 +14,18 @@ export const PROFILE = {
 };
 
 export const EDUCATION = [
-  {
-    degree: "Doctor of Philosophy",
-    school: "University of Sydney",
-    period: "2026 — 2030",
-  },
+  // {
+  //   degree: "Doctor of Philosophy",
+  //   school: "University of Sydney",
+  //   period: "2026 — 2030",
+  // },
   {
     degree: "Master of Philosophy",
     school: "University of Sydney",
     period: "2025 — 2026",
   },
   {
-    degree: "Bachelor of Advanced Computing (Computer Science, First Class Honours)",
+    degree: "Bachelor of Advanced Computing (Computer Science, First-Class Honours)",
     school: "University of Sydney",
     period: "2021 — 2025",
   },
