@@ -25,7 +25,8 @@ export const EDUCATION = [
     period: "2025 — 2026",
   },
   {
-    degree: "Bachelor of Advanced Computing (Computer Science, First-Class Honours)",
+    degree:
+      "Bachelor of Advanced Computing (Computer Science, First-Class Honours)",
     school: "University of Sydney",
     period: "2021 — 2025",
   },
@@ -58,7 +59,7 @@ export const PROJECTS = [
     period: "2025 Dec",
     link: "https://github.com/DahaoTang/latex-templates",
     description:
-      "LaTeX template, currently contains: slides (USYD-like and a casual deep-blue theme), poster (USYD-like), and a classic latex CV template",
+      "LaTeX template, currently contains: slides (USYD-like and a casual deep-blue theme), poster (USYD-like), business card, and a classic latex CV template",
     tags: ["LaTeX", "XeLaTex", "Makefile"],
   },
   {
